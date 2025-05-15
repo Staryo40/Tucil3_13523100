@@ -1,0 +1,35 @@
+# Node modules and dependency locks
+node_modules/
+package-lock.json
+
+# Compiled files
+*.log
+*.tsbuildinfo
+
+# macOS metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Electron build/output
+/dist/
+/build/
+out/
+
+# Cache and temp files
+*.cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific temp files
+*.tmp
+*.bak
