@@ -1,10 +1,3 @@
-class CarInfo {
-    constructor(orientation, length) {
-        this.orientation = orientation; // '-' or '|'
-        this.length = length;           
-    }
-}
-
 // InputStruct to hold full puzzle setup
 class InputStruct {
     constructor(row, col, count, state, goalPos, errors = []) {
@@ -43,6 +36,5 @@ class InputStruct {
 }
 
 module.exports = {
-    CarInfo,
     InputStruct
 };
