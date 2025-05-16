@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { CarInfo, InputStruct } = require('../struct/inputstruct.js');
+const { InputStruct } = require('../struct/inputstruct.js');
 
 /**
  * Reads and parses a rush hour puzzle file (.txt)
@@ -104,24 +104,24 @@ function inputBoard(filePath) {
             const goalIndex = chars.indexOf('K');
 
             if (chars.length === col + 1) {
-            if (goalIndex === col) {
-                goalPos = [i, col - 1]; // K is right of board
-                boardLines.push(chars.slice(0, col));
-            } else if (goalIndex === 0) {
-                goalPos = [i, 0]; // K is left of board
-                boardLines.push(chars.slice(1, col + 1));
-            } else {
-                errors.push(`Line ${lineIdx + 1} has goal (K) at invalid position; it must be at start or end`);
-                return new InputStruct(row, col, numCars, [], null, errors);
-            }
+                if (goalIndex === col) {
+                    goalPos = [i, col - 1]; // K is right of board
+                    boardLines.push(chars.slice(0, col));
+                } else if (goalIndex === 0) {
+                    goalPos = [i, 0]; // K is left of board
+                    boardLines.push(chars.slice(1, col + 1));
+                } else {
+                    errors.push(`Line ${lineIdx + 1} has goal (K) at invalid position; it must be at start or end`);
+                    return new InputStruct(row, col, numCars, [], null, errors);
+                }
             } else if (chars.length === col) {
-            if (goalIndex !== -1) {
-                goalPos = [i, goalIndex]; // K is in a normal cell
-                boardLines.push(chars);
-            } else {
-                errors.push(`Line ${lineIdx + 1} with goal (K) must be length ${col + 1}`);
-                return new InputStruct(row, col, numCars, [], null, errors);
-            }
+                if (goalIndex !== -1) {
+                    errors.push(`Line ${lineIdx + 1} goal (K) is in the middle of the board`);
+                    return new InputStruct(row, col, numCars, [], null, errors);
+                } else {
+                    errors.push(`Line ${lineIdx + 1} with goal (K) must be length ${col + 1}`);
+                    return new InputStruct(row, col, numCars, [], null, errors);
+                }
             } else {
                 errors.push(`Line ${lineIdx + 1} has invalid length`);
                 return new InputStruct(row, col, numCars, [], null, errors);
@@ -228,6 +228,10 @@ function finalInputChecker(input) {
 
   // 3. Check each car is aligned and continuous
   for (const [car, cells] of Object.entries(positions)) {
+    if (cells.length < 2) {
+      errors.push(`Car '${car}' occupies only one cell, which is not allowed`);
+      return new InputStruct(row, col, count, state, goalPos, errors);
+    }
     let orientation = null;
 
     const rows = cells.map(([r, _]) => r);
