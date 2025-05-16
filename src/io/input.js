@@ -56,20 +56,23 @@ function inputBoard(filePath) {
     const expectedLines = lines.length;
 
     if (!goalFound && startIndex >= 1) {
-        const aboveLine = lines[startIndex];
-        const chars = aboveLine.split('');
-        const kIndex = chars.indexOf('K');
+        const aboveLine = lines[startIndex].trim();
 
-        kCount += chars.filter(ch => ch === 'K').length;
+        if (aboveLine === 'K') {
+            const chars = aboveLine.split('');
+            const kIndex = chars.indexOf('K');
 
-        if (kIndex !== -1) {
-            if (kIndex < col){
-                startIndex = startIndex + 1;
-                goalFound = true;
-                goalPos = [0, kIndex]; 
-            } else {
-                errors.push(`Goal is out of range at colIndex: ${kIndex}, when column size is: ${col}`);
-                return new InputStruct(row, col, numCars,[] , null, errors);
+            kCount += chars.filter(ch => ch === 'K').length;
+
+            if (kIndex !== -1) {
+                if (kIndex < col) {
+                    startIndex = startIndex + 1;
+                    goalFound = true;
+                    goalPos = [0, kIndex]; 
+                } else {
+                    errors.push(`Goal is out of range at colIndex: ${kIndex}, when column size is: ${col}`);
+                    return new InputStruct(row, col, numCars, [] , null, errors);
+                }
             }
         }
     }
@@ -168,7 +171,7 @@ function inputBoard(filePath) {
       return new InputStruct(row, col, numCars, [], null, errors);
     }
 
-    state = boardLines;
+    state = boardLines
 
   } catch (err) {
     errors.push(`Error reading file: ${err.message}`);

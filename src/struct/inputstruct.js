@@ -1,3 +1,4 @@
+
 // InputStruct to hold full puzzle setup
 class InputStruct {
     constructor(row, col, count, state, goalPos, errors = []) {

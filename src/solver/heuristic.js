@@ -2,8 +2,7 @@ const { CarInfo, PuzzleState } = require('../struct/puzzlestruct.js');
 
 /**
  * Returns a cost evaluation function for a given search strategy.
- * This function is used to rank nodes in informed search algorithms
- * like UCS, Greedy Best-First Search, and A*.
+ * Will return 0 immediately if the primary car is on the goal
  *
  * - "UCS"     → cost = g(n)         (actual cost so far)
  * - "Greedy"  → cost = h(n)         (heuristic estimate to goal)
@@ -16,15 +15,15 @@ const { CarInfo, PuzzleState } = require('../struct/puzzlestruct.js');
  * @returns {(node: SearchNode) => number} A cost evaluation function for the specified strategy.
  */
 function getCostFunction(strategy, heuristicFn) {
-  if (strategy === "UCS") {
-    return node => node.g;
-  } else if (strategy === "Greedy") {
-    return node => heuristicFn(node.state);
-  } else if (strategy === "AStar") {
-    return node => node.g + heuristicFn(node.state);
-  }
-}
+  return node => {
+    if (isPrimaryOnGoal(node.state)) return 0; 
 
+    const h = heuristicFn(node.state);
+    if (strategy === "UCS") return node.g;
+    if (strategy === "Greedy") return h;
+    if (strategy === "AStar") return node.g + h;
+  };
+}
 /**
  * Estimates the number of blocking tiles between the primary car ('P') and the goal.
  * This heuristic counts how many occupied cells (excluding 'P' and '.') are directly
@@ -239,9 +238,22 @@ function checkHorCarBlockingExit(state) {
     return false;
 }
 
+/**
+ * Checks if the primary car ('P') currently occupies the goal position.
+ * This indicates that the puzzle has been solved in this state.
+ *
+ * @param {PuzzleState} state - The current puzzle state.
+ * @returns {boolean} True if the goal position contains 'P', false otherwise.
+ */
+function isPrimaryOnGoal(state) {
+  const [gr, gc] = state.goalPos;
+  return state.at(gr, gc) === 'P';
+}
+
 module.exports = {
   getCostFunction,
   heuristicBlockerCount,
   heuristicDistanceToFreedom,
-  checkHorCarBlockingExit
+  checkHorCarBlockingExit,
+  isPrimaryOnGoal
 };
