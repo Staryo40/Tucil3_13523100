@@ -25,6 +25,9 @@ function greedyBestFirstSearch(initState, heuristicFn){
             return new SearchOutput(current, totalMove); 
         }
         totalMove++
+        // current.state.print()
+        // console.log(`Above g: ${current.g}`)
+        // console.log(`Above cost: ${current.cost}`)
 
         const neighbors = expandNode(current, costFn); 
 

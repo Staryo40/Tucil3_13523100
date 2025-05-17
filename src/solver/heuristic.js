@@ -16,7 +16,7 @@ const { CarInfo, PuzzleState } = require('../struct/puzzlestruct.js');
  */
 function getCostFunction(strategy, heuristicFn) {
   return node => {
-    if (isPrimaryOnGoal(node.state)) return 0; 
+    if (isPrimaryOnGoal(node.state)) return -1; 
 
     const h = heuristicFn(node.state);
     if (strategy === "UCS") return node.g;
@@ -24,6 +24,7 @@ function getCostFunction(strategy, heuristicFn) {
     if (strategy === "AStar") return node.g + h;
   };
 }
+
 /**
  * Estimates the number of blocking tiles between the primary car ('P') and the goal.
  * This heuristic counts how many occupied cells (excluding 'P' and '.') are directly
@@ -39,30 +40,30 @@ function heuristicBlockerCount(state){
     const primaryCar = state.cars.get('P')
 
     let blockerCount = 0;
-    if (state.goalPos[0] == 0 || state.goalPos[0] == state.row-1){ // the goal is vertical
+    if (state.goalPos[0] === 0 || state.goalPos[0] === state.row-1){ // the goal is vertical
         const col = state.goalPos[1];
-        if (state.goalPos[0] == 0){ // goal is at top
-            for (i = 0; i < primaryCar.position[0]; i++){
+        if (state.goalPos[0] === 0){ // goal is at top
+            for (let i = 0; i < primaryCar.position[0]; i++){
                 const cell = state.at(i, col);
                 if (cell !== '.' && cell !== 'P') blockerCount++;
             }
         } else { // goal is at bottom
             const lowestPos = primaryCar.position[0] + primaryCar.length
-            for (i = lowestPos; i < state.row; i++){
+            for (let i = lowestPos; i < state.row; i++){
                 const cell = state.at(i, col);
                 if (cell !== '.' && cell !== 'P') blockerCount++;
             }
         }
-    } else { // the goal is horizontal
+    } else if (state.goalPos[1] === 0 || state.goalPos[1] === state.col - 1) {
         const row = state.goalPos[0];
-        if (state.goalPos[1] == 0 || state.goalPos[1] == state.col-1){ // goal is to the left
-            for (i = 0; i < primaryCar.position[1]; i++){
+        if (state.goalPos[1] === 0) {
+            for (let i = 0; i < primaryCar.position[1]; i++) {
                 const cell = state.at(row, i);
                 if (cell !== '.' && cell !== 'P') blockerCount++;
             }
-        } else { // goal is to the right
-            const rigthPos = primaryCar.position[1] + primaryCar.length
-            for (i = rigthPos; i < state.col; i++){
+        } else {
+            const right = primaryCar.position[1] + primaryCar.length;
+            for (let i = right; i < state.col; i++) {
                 const cell = state.at(row, i);
                 if (cell !== '.' && cell !== 'P') blockerCount++;
             }
