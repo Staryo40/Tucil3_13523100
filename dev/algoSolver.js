@@ -8,7 +8,7 @@ const { uniformCostSearch } = require('../src/algorithms/solverUniformCostSearch
 const { greedyBestFirstSearch } = require('../src/algorithms/solverGreedyBestFirstSearch.js')
 const { algoAStar } = require('../src/algorithms/solverAstar.js')
 
-const inputPath = path.resolve(__dirname, '../test/spec.txt');
+const inputPath = path.resolve(__dirname, '../test/check.txt');
 
 // Input
 const input = inputBoard(inputPath);
@@ -18,9 +18,9 @@ filteredInput.print()
 
 const state = inputToPuzzleState(filteredInput)
 
-// const solutionNode = uniformCostSearch(state)
-const solutionNode = algoAStar(state, heuristicDistanceToFreedom)
+const solutionOutput = uniformCostSearch(state)
+// const solutionNode = algoAStar(state, heuristicDistanceToFreedom)
 // const solutionNode = greedyBestFirstSearch(state, heuristicDistanceToFreedom)
 
-const output = outputCreation(0, solutionNode)
+const output = outputCreation(0, solutionOutput.totalMove, solutionOutput.node)
 output.print()

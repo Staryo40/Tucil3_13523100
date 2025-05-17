@@ -13,8 +13,9 @@ class OutputState{
 }
 
 class OutputStruct{
-    constructor(time, moveCount, states, mainMessage = ""){
+    constructor(time, totalMove, moveCount, states, mainMessage = ""){
         this.time = time;
+        this.totalMove = totalMove;
         this.moveCount = moveCount;
         this.states = states;
         this.mainMessage = mainMessage;
@@ -24,6 +25,7 @@ class OutputStruct{
         console.log("=== Output Summary ===");
         console.log(`Message      : ${this.mainMessage}`);
         console.log(`Moves        : ${this.moveCount}`);
+        console.log(`Total moves  : ${this.totalMove}`);
         console.log(`Elapsed Time : ${this.time.toFixed(3)} ms`);
         console.log("=======================\n");
 

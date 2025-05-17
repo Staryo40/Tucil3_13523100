@@ -1,18 +1,18 @@
-const { SearchNode, PuzzleState } = require('../struct/puzzlestruct.js');
+const { SearchNode, PuzzleState, SearchNodePriorityQueue, SearchOutput } = require('../struct/puzzlestruct.js');
 const { expandNode } = require('../solver/helper.js');
 const { getCostFunction, checkHorCarBlockingExit, isPrimaryOnGoal } = require('../solver/heuristic.js');
-const PriorityQueue = require('js-priority-queue');
 
 function greedyBestFirstSearch(initState, heuristicFn){
     if (checkHorCarBlockingExit(initState)){
-        return null
+        return new SearchOutput(null, 0);
     }
 
     const startNode = new SearchNode(initState, 0, null, 0);
-    const queue = new PriorityQueue({ comparator: (a, b) => a.cost - b.cost });
-    queue.queue(startNode);
+    const queue = new SearchNodePriorityQueue();
+    queue.enqueue(startNode);
     const visited = new Set();
     const costFn = getCostFunction("Greedy", heuristicFn);
+    let totalMove = 0;
 
     while (queue.length > 0) {
         const current = queue.dequeue(); 
@@ -22,19 +22,20 @@ function greedyBestFirstSearch(initState, heuristicFn){
         visited.add(stateKey);
 
         if (isPrimaryOnGoal(current.state)) {
-            return current; 
+            return new SearchOutput(current, totalMove); 
         }
+        totalMove++
 
         const neighbors = expandNode(current, costFn); 
 
         for (const neighbor of neighbors) {
             if (!visited.has(neighbor.state.board)) {
-                queue.queue(neighbor);
+                queue.enqueue(neighbor);
             }
         }
     }
 
-    return null; // No solution found
+    return new SearchOutput(null, totalMove); // No solution found
 }
 
 module.exports = {

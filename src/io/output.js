@@ -1,10 +1,13 @@
 const { OutputStruct, OutputState } = require("../struct/outputstruct");
 
+function outputToFile(output){
 
-function outputCreation(time, lastNode){
+}
+
+function outputCreation(time, totalMove, lastNode){
     const moveCount = countNodes(lastNode)
     if (lastNode == null){
-        return new OutputStruct(time, moveCount, null, "Solution not found")
+        return new OutputStruct(time, totalMove, moveCount, null, "Solution not found")
     }  
 
     listNode = []
@@ -17,7 +20,7 @@ function outputCreation(time, lastNode){
 
     outputStates = generateOutputStates(listNode)   
 
-    return new OutputStruct(time, moveCount, outputStates, "Solution found");
+    return new OutputStruct(time, totalMove, moveCount, outputStates, "Solution found");
 }
 
 function generateOutputStates(listNode) {
