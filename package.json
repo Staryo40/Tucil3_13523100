@@ -17,6 +17,7 @@
     "electron": "^36.2.0"
   },
   "dependencies": {
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.5.0",
+    "js-priority-queue": "^0.1.5"
   }
 }

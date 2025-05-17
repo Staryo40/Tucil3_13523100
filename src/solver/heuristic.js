@@ -36,7 +36,7 @@ function getCostFunction(strategy, heuristicFn) {
  * @returns {number} The number of blocking cells between 'P' and the goal.
  */
 function heuristicBlockerCount(state){
-    const primaryCar = state.cars['P']
+    const primaryCar = state.cars.get('P')
 
     let blockerCount = 0;
     if (state.goalPos[0] == 0 || state.goalPos[0] == state.row-1){ // the goal is vertical
@@ -84,7 +84,7 @@ function heuristicBlockerCount(state){
  */
 function heuristicDistanceToFreedom(state) {
     const goal = state.goalPos;
-    const primary = state.cars['P'];
+    const primary = state.cars.get('P');
     const [pr, pc] = primary.position;
     let total = 0;
 
@@ -143,7 +143,7 @@ function freedomDepth(state, carId, visited = new Set()) {
     if (visited.has(carId)) return Infinity;
     visited.add(carId);
 
-    const car = state.cars[carId];
+    const car = state.cars.get(carId);
     const [r, c] = car.position;
 
     // Check each direction depending on orientation
@@ -203,7 +203,7 @@ function freedomDepth(state, carId, visited = new Set()) {
  */
 function checkHorCarBlockingExit(state) {
     const goal = state.goalPos;
-    const primary = state.cars['P'];
+    const primary = state.cars.get('P');
     const [pr, pc] = primary.position;
 
     const isSameRow = pr === goal[0];
@@ -218,7 +218,7 @@ function checkHorCarBlockingExit(state) {
         for (let c = start; c <= end; c++) {
             const ch = state.at(pr, c);
             if (ch !== '.' && ch !== 'P') {
-                const car = state.cars[ch];
+                const car = state.cars.get(ch);
                 if (car.orientation === '-') return true;
             }
         }
@@ -229,7 +229,7 @@ function checkHorCarBlockingExit(state) {
         for (let r = start; r <= end; r++) {
             const ch = state.at(r, pc);
             if (ch !== '.' && ch !== 'P') {
-                const car = state.cars[ch];
+                const car = state.cars.get(ch);
                 if (car.orientation === '-') return true;
             }
         }

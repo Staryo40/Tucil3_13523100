@@ -1,4 +1,5 @@
 const { CarInfo, SearchNode, PuzzleState } = require('../struct/puzzlestruct.js');
+const { getCostFunction } = require('./heuristic.js');
 
 /**
  * Expands a search node into possible child nodes by generating valid next puzzle states
