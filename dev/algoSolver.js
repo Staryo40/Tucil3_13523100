@@ -23,6 +23,6 @@ const state = inputToPuzzleState(filteredInput)
 // const solutionOutput = greedyBestFirstSearch(state, heuristicDistanceToFreedom)
 // const solutionOutput = algoAStar(state, heuristicDistanceToFreedom)
 const solutionOutput = iterativeDeepeningAstar(state, heuristicDistanceToFreedom)
-
+    
 const output = outputCreation(0, solutionOutput.totalMove, solutionOutput.node)
 output.print()

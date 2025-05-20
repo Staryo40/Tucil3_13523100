@@ -1,7 +1,53 @@
 const { OutputStruct, OutputState } = require("../struct/outputstruct");
+const fs = require('fs');
 
-function outputToFile(output){
+/**
+ * Writes the OutputStruct data to a file at filePath in a formatted manner.
+ * @param {OutputStruct} output 
+ * @param {string} filePath 
+ */
+function outputToFile(output, filePath) {
+    let lines = [];
 
+    // Header Information
+    lines.push(`Execution time: ${output.time} ms`);
+    lines.push(`Total nodes visited: ${output.totalMove}`);
+    lines.push(`Result: ${output.mainMessage}`);
+
+    if (output.mainMessage === "Solution found") {
+        lines.push(`Total moves: ${output.moveCount}`);
+    }
+
+    // Blank line after result section
+    lines.push('');
+
+    // State output
+    for (const stateObj of output.states) {
+        lines.push(`Message: ${stateObj.message}`);
+        lines.push(formatBoard(stateObj.state));
+        lines.push('');
+    }
+
+    // Write to file
+    fs.writeFileSync(filePath, lines.join('\n'), 'utf-8');
+}
+
+/**
+ * Formats a PuzzleState object into a string representing the board in rows.
+ * @param {PuzzleState} puzzleState 
+ * @returns {string}
+ */
+function formatBoard(puzzleState) {
+    const { row, col, board } = puzzleState;
+    let output = '';
+    for (let r = 0; r < row; r++) {
+        let line = '';
+        for (let c = 0; c < col; c++) {
+            line += board[puzzleState.rc2i(r, c)];
+        }
+        output += line + '\n';
+    }
+    return output.trimEnd(); // Remove trailing newline
 }
 
 function outputCreation(time, totalMove, lastNode){
@@ -84,5 +130,6 @@ function countNodes(lastNode){
 }
 
 module.exports = {
-    outputCreation
+    outputCreation,
+    outputToFile
 }

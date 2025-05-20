@@ -8,7 +8,7 @@ const { getCostFunction, checkHorCarBlockingExit, isPrimaryOnGoal } = require('.
  * It stops as soon as the primary car reaches the goal position.
  *
  * @param {PuzzleState} initState - The initial puzzle state to solve.
- * @returns {SearchNode|null} The goal node if a solution is found, otherwise null.
+ * @returns {SearchOutput} The goal node if a solution is found, otherwise null.
  */
 function uniformCostSearch(initState) {
     if (checkHorCarBlockingExit(initState)){
