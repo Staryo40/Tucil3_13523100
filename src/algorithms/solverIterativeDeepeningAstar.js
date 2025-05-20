@@ -23,23 +23,25 @@ function iterativeDeepeningAstar(initState, heuristicFn) {
     const startNode = new SearchNode(initState, 0, null, 0);
     const costFn = getCostFunction("AStar", heuristicFn);
     let threshold = costFn(startNode);
-
+    
+    
     const globalVisited = new Set();
-    let totalMove = 0;
+    let totalMove = { count: 0 };
 
     while (true) {
         const visited = new Set();
         const result = dfsBounded(startNode, threshold, costFn, visited, globalVisited, totalMove);
 
+        // console.log(`IDA* iteration: threshold=${threshold}, totalVisited=${totalMove.count}, nextThreshold=${result.nextThreshold}`);
+
         if (result.found) {
-            return new SearchOutput(result.node, result.totalMove);
+            return new SearchOutput(result.node, totalMove.count);
         }
 
         if (result.nextThreshold === Infinity) {
-            return new SearchOutput(null, result.totalMove);
+            return new SearchOutput(null, totalMove.count);
         }
 
-        totalMove = result.totalMove;
         threshold = result.nextThreshold;
     }
 }
@@ -70,18 +72,21 @@ function dfsBounded(node, threshold, costFn, visited, globalVisited, totalMove) 
     const key = node.state.board;
 
     if (visited.has(key)) {
-        return { found: false, nextThreshold: Infinity, totalMove };
+        // if (totalMove.count % 100 === 0) {
+        //     console.log(`⏪ Revisited state at f=${f}, g=${node.g}`);
+        // }
+        return { found: false, nextThreshold: Infinity };
     }
 
     visited.add(key);
 
     if (!globalVisited.has(key)) {
         globalVisited.add(key);
-        totalMove++;
+        totalMove.count++;
     }
 
     if (isPrimaryOnGoal(node.state)) { // Solution found
-        return { found: true, node, totalMove };
+        return { found: true, node };
     }
 
     let minOver = Infinity;
@@ -92,10 +97,9 @@ function dfsBounded(node, threshold, costFn, visited, globalVisited, totalMove) 
 
         if (result.found) return result; 
         minOver = Math.min(minOver, result.nextThreshold);
-        totalMove = result.totalMove;
     }
 
-    visited.delete(key);
+    // visited.delete(key);
     return { found: false, nextThreshold: minOver, totalMove };
 }
 

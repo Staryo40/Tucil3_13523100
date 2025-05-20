@@ -55,7 +55,7 @@ app.whenReady().then(createWindow);
 ipcMain.handle('open-input', async () => {
   const result = await dialog.showOpenDialog({
     title: 'Select Input File',
-    defaultPath: process.cwd(), // ✅ working directory
+    defaultPath: process.cwd(), 
     filters: [{ name: 'Text Files', extensions: ['txt'] }],
     properties: ['openFile'],
   });
@@ -114,11 +114,31 @@ ipcMain.handle('run-solver', async (event, config) => {
     return { error: 'Invalid algorithm' };
   }
   
-  console.log("Algorithm process finished: solution resolved")  
+  console.log("Algorithm process finished: solution resolved\n")  
 
   const end = performance.now();
   const time = (end - start).toFixed(3); 
   cachedOutput = outputCreation(time, solution.totalMove, solution.node);
+
+  if (!solution.node){
+    return {
+      time: cachedOutput.time,
+      totalMove: cachedOutput.totalMove,
+      moveCount: cachedOutput.moveCount,
+      mainMessage: "Solution not found",
+      states: [
+        {
+          message: "Start of puzzle",
+          state: {
+            board: parsedInput.board,
+            row: parsedInput.row,
+            col: parsedInput.col,
+            goalPos: parsedInput.goalPos
+          }
+        }
+      ]
+    };
+  }
 
   return {
     time: cachedOutput.time,

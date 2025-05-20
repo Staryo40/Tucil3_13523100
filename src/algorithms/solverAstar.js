@@ -20,13 +20,13 @@ function algoAStar(initState, heuristicFn){
     if (checkHorCarBlockingExit(initState)){
         return new SearchOutput(null, 0);
     }
-
     const startNode = new SearchNode(initState, 0, null, 0);
     const queue = new SearchNodePriorityQueue();
     queue.enqueue(startNode);
     const visited = new Set();
     const costFn = getCostFunction("AStar", heuristicFn);
     let totalMove = 0;
+
 
     while (queue.length > 0) {
         const current = queue.dequeue(); 

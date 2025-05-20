@@ -64,7 +64,10 @@ function formatBoard(puzzleState) {
  * @returns {OutputStruct} An object containing summary statistics and step-by-step output states.
  */
 function outputCreation(time, totalMove, lastNode){
-    const moveCount = countNodes(lastNode)
+    let moveCount = 0
+    if (lastNode != null){
+        moveCount = countNodes(lastNode)
+    }
     if (lastNode == null){
         return new OutputStruct(time, totalMove, moveCount, null, "Solution not found")
     }  

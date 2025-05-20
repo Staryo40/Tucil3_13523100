@@ -218,7 +218,7 @@ function checkHorCarBlockingExit(state) {
         const end = Math.max(pEndCol, goal[1]);
         for (let c = start; c <= end; c++) {
             const ch = state.at(pr, c);
-            if (ch !== '.' && ch !== 'P') {
+            if (ch !== '.' && ch !== 'P' && ch !== '@') {
                 const car = state.cars.get(ch);
                 if (car.orientation === '-') return true;
             }
@@ -229,9 +229,9 @@ function checkHorCarBlockingExit(state) {
         const end = Math.max(pEndRow, goal[0]);
         for (let r = start; r <= end; r++) {
             const ch = state.at(r, pc);
-            if (ch !== '.' && ch !== 'P') {
+            if (ch !== '.' && ch !== 'P' && ch !== '@') {
                 const car = state.cars.get(ch);
-                if (car.orientation === '-') return true;
+                if (car.orientation === '|') return true;
             }
         }
     }

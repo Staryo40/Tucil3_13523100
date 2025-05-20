@@ -16,10 +16,10 @@ const { getCostFunction, checkHorCarBlockingExit, isPrimaryOnGoal } = require('.
  *   If no solution is found, `node` may be `null`.
  */
 function uniformCostSearch(initState) {
-    if (checkHorCarBlockingExit(initState)){
+     if (checkHorCarBlockingExit(initState)){
         return new SearchOutput(null, 0);
     }
-
+    
     const startNode = new SearchNode(initState, 0, null, 0);
     const queue = new SearchNodePriorityQueue();
     queue.enqueue(startNode);

@@ -9,7 +9,7 @@ const { greedyBestFirstSearch } = require('../src/algorithms/solverGreedyBestFir
 const { algoAStar } = require('../src/algorithms/solverAstar.js')
 const { iterativeDeepeningAstar } = require('../src/algorithms/solverIterativeDeepeningAstar.js')
 
-const inputPath = path.resolve(__dirname, '../test/spec.txt');
+const inputPath = path.resolve(__dirname, '../test/hardest51.txt');
 
 // Input
 const input = inputBoard(inputPath);

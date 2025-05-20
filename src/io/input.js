@@ -56,12 +56,11 @@ function inputBoard(filePath) {
     const expectedLines = lines.length;
 
     if (!goalFound && startIndex >= 1) {
-        const aboveLine = lines[startIndex].trim();
+        const aboveLine = lines[startIndex];
 
-        if (aboveLine === 'K') {
+        if (aboveLine.includes('K')) {
             const chars = aboveLine.split('');
             const kIndex = chars.indexOf('K');
-
             kCount += chars.filter(ch => ch === 'K').length;
 
             if (kIndex !== -1) {
@@ -126,7 +125,7 @@ function inputBoard(filePath) {
                     return new InputStruct(row, col, numCars, [], null, errors);
                 }
             } else {
-                errors.push(`Line ${lineIdx + 1} has invalid length`);
+                errors.push(`Line ${lineIdx + 1} has invalid length of ${chars.length}`);
                 return new InputStruct(row, col, numCars, [], null, errors);
             }
       } else {
@@ -288,12 +287,12 @@ function finalInputChecker(input) {
 
   if (pAllSameRow) {
     if (pRows[0] !== goalPos[0]) {
-      errors.push(`Primary car is horizontal, but not aligned with goal row`);
+      errors.push(`Primary car is horizontal ${pRows[0]}, but not aligned with goal row ${goalPos[0]}`);
       return new InputStruct(row, col, count, state, goalPos, errors);
     }
   } else if (pAllSameCol) {
     if (pCols[0] !== goalPos[1]) {
-      errors.push(`Primary car is vertical, but not aligned with goal column`);
+      errors.push(`Primary car is vertical column ${pCols[0]}, but not aligned with goal column ${goalPos[1]}`);
       return new InputStruct(row, col, count, state, goalPos, errors);
     }
   } else {
