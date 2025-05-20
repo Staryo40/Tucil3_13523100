@@ -15,6 +15,11 @@ let cachedInput = null;
 let cachedFilePath = null;
 let cachedOutput = null;
 
+/**
+ * Creates the main application window for the Rush Hour solver.
+ * Loads the frontend from the Vite build output (`dist/index.html`)
+ * and delays showing the window until it's fully ready.
+ */
 function createWindow() {
     const win = new BrowserWindow({
     show: false,              // create window but don't show yet
@@ -35,8 +40,18 @@ function createWindow() {
     });
 }
 
+/**
+ * Initializes the Electron app once it's ready and sets up the main window.
+ */
 app.whenReady().then(createWindow);
 
+/**
+ * Handles the 'open-input' IPC event from the renderer.
+ * Opens a file picker dialog, parses and validates the selected text file,
+ * and caches the parsed input structure for future use.
+ *
+ * @returns {Promise<Object|null>} Parsed input data with file name, or null if canceled.
+ */
 ipcMain.handle('open-input', async () => {
   const result = await dialog.showOpenDialog({
     title: 'Select Input File',
@@ -60,6 +75,15 @@ ipcMain.handle('open-input', async () => {
     };
 });
 
+/**
+ * Handles the 'run-solver' IPC event from the renderer.
+ * Executes the selected pathfinding algorithm using the cached input.
+ * Returns structured output including timing, moves, and step-by-step states.
+ *
+ * @param {Electron.IpcMainInvokeEvent} event - The IPC event.
+ * @param {{ algorithm: string, heuristic: string }} config - Configuration object.
+ * @returns {Promise<Object>} Serialized solution data or error.
+ */
 ipcMain.handle('run-solver', async (event, config) => {
   if (!cachedInput) return { error: 'No input loaded' };
   
@@ -113,7 +137,12 @@ ipcMain.handle('run-solver', async (event, config) => {
   };
 });
 
-
+/**
+ * Handles the 'export-output' IPC event from the renderer.
+ * Prompts the user to choose a file location and writes the solution output to a `.txt` file.
+ *
+ * @returns {Promise<Object>} Result object with success status or error message.
+ */
 ipcMain.handle('export-output', async () => {
   if (!cachedOutput) {
     return { error: 'No solution has been generated yet.' };

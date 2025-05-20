@@ -1,16 +1,38 @@
+/**
+ * Represents information about a car on the puzzle board.
+ */
 class CarInfo {
+    /**
+   * @param {'-' | '|'} orientation - The orientation of the car: horizontal '-' or vertical '|'.
+   * @param {number} length - The length of the car (typically 2 or 3).
+   * @param {[number, number]} position - The top-left position of the car as [row, col].
+   */
     constructor(orientation, length, position) {
         this.orientation = orientation; // '-' or '|'
         this.length = length;  
         this.position = position; // most top-left part of the car
     }
     
+    /**
+   * Prints information about the car to the console.
+   * @param {string} symbol - The character representing the car.
+   */
     print(symbol) {
         console.log(`Car '${symbol}': orientation='${this.orientation}', length=${this.length}, position=[${this.position[0]}, ${this.position[1]}]`);
     }
 }
 
+/**
+ * Represents a full board state of the Rush Hour puzzle.
+ */
 class PuzzleState {
+    /**
+   * @param {number} row - Number of rows in the board.
+   * @param {number} col - Number of columns in the board.
+   * @param {string} board - 1D string representing the board contents row-major.
+   * @param {[number, number]} goalPos - Goal position on the board as [row, col].
+   * @param {Map<string, CarInfo>} cars - Map of car symbols to their information.
+   */
     constructor(row, col, board, goalPos, cars) {
         this.row = row;              
         this.col = col;         
@@ -46,7 +68,16 @@ class PuzzleState {
     }
 }
 
+/**
+ * Represents a node in the search tree used by pathfinding algorithms.
+ */
 class SearchNode {
+    /**
+   * @param {PuzzleState} state - The puzzle state associated with this node.
+   * @param {number} cost - The total cost used for prioritization (e.g., g(n) + h(n)).
+   * @param {SearchNode|null} [parent=null] - The parent node in the search tree.
+   * @param {number} [g=0] - The cost from the start node to this node.
+   */
     constructor(state, cost, parent = null, g = 0) {
         this.state = state;       // PuzzleState object 
         this.parent = parent;     // SearchNode object 
@@ -55,13 +86,23 @@ class SearchNode {
     }
 }
 
+/**
+ * Represents the result of a search algorithm.
+ */
 class SearchOutput {
+    /**
+   * @param {SearchNode|null} node - The final node leading to the solution, or null if not found.
+   * @param {number} totalMove - Total number of unique states visited during search.
+   */
     constructor(node, totalMove){
         this.node = node;
         this.totalMove = totalMove
     }
 }
 
+/**
+ * A priority queue specifically for SearchNode instances, ordered by cost.
+ */
 class SearchNodePriorityQueue {
     constructor() {
         this.data = [];

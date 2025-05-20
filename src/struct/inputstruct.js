@@ -1,6 +1,19 @@
 
-// InputStruct to hold full puzzle setup
+/**
+ * Represents the structured input for a Rush Hour puzzle.
+ *
+ * This class encapsulates all relevant board metadata and parsing results,
+ * and is typically constructed after reading and validating an input file.
+ */
 class InputStruct {
+   /**
+   * @param {number} row - The number of rows in the puzzle board.
+   * @param {number} col - The number of columns in the puzzle board.
+   * @param {number} count - The total number of distinct cars parsed.
+   * @param {string[]} state - The board state as an array of strings (each row as a string).
+   * @param {[number, number]} goalPos - The position of the goal cell, represented as [row, col].
+   * @param {string[]} [errors=[]] - An optional list of error messages from input validation.
+   */
     constructor(row, col, count, state, goalPos, errors = []) {
         this.row = row;                
         this.col = col;     

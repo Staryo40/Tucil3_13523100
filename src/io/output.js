@@ -53,6 +53,16 @@ function formatBoard(puzzleState) {
     return output.trimEnd(); // Remove trailing newline
 }
 
+/**
+ * Constructs the final output of the solver, including execution time, move count,
+ * node visit count, and a list of OutputState objects representing each move.
+ *
+ * @param {number} time - The total execution time in milliseconds.
+ * @param {number} totalMove - The number of unique nodes visited during the search.
+ * @param {SearchNode|null} lastNode - The goal node containing the final solution path,
+ *        or null if no solution was found.
+ * @returns {OutputStruct} An object containing summary statistics and step-by-step output states.
+ */
 function outputCreation(time, totalMove, lastNode){
     const moveCount = countNodes(lastNode)
     if (lastNode == null){
@@ -72,6 +82,15 @@ function outputCreation(time, totalMove, lastNode){
     return new OutputStruct(time, totalMove, moveCount, outputStates, "Solution found");
 }
 
+/**
+ * Generates a list of OutputState objects that describe each step from start to goal.
+ *
+ * Each OutputState includes a human-readable message describing the move and
+ * the corresponding PuzzleState.
+ *
+ * @param {SearchNode[]} listNode - Ordered list of nodes representing the solution path from start to goal.
+ * @returns {OutputState[]} A list of OutputState instances with move descriptions.
+ */
 function generateOutputStates(listNode) {
     const outputStates = [];
 
@@ -93,6 +112,16 @@ function generateOutputStates(listNode) {
     return outputStates;
 }
 
+/**
+ * Generates a human-readable description of the move made between two puzzle states.
+ *
+ * Compares the position of each car in the previous and next state, and identifies
+ * which car moved, in what direction, and by how many cells.
+ *
+ * @param {PuzzleState} prevState - The previous puzzle state.
+ * @param {PuzzleState} nextState - The next puzzle state.
+ * @returns {string} A move description, e.g., "Car B moved 2 cells to the right".
+ */
 function getMoveDescription(prevState, nextState) {
     for (const [carId, carPrev] of prevState.cars.entries()) {
         const carNext = nextState.cars.get(carId);
@@ -121,6 +150,14 @@ function getMoveDescription(prevState, nextState) {
     return "Unknown move";
 }
 
+/**
+ * Counts the number of steps (nodes) in the solution path from the initial state to the given node.
+ *
+ * This function walks backward from the final node to the root node by following parent links.
+ *
+ * @param {SearchNode|null} lastNode - The final node in the solution path.
+ * @returns {number} The number of steps taken (excluding the initial state).
+ */
 function countNodes(lastNode){
     let count = 0;
     tempNode = lastNode;

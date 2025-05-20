@@ -2,6 +2,20 @@ const { SearchNode, PuzzleState, SearchNodePriorityQueue, SearchOutput } = requi
 const { expandNode } = require('../solver/helper.js');
 const { getCostFunction, checkHorCarBlockingExit, isPrimaryOnGoal } = require('../solver/heuristic.js');
 
+/**
+ * Performs A* Search on the given Rush Hour puzzle state.
+ *
+ * A* is a best-first search algorithm that uses both the path cost `g(n)` and a heuristic
+ * estimate `h(n)` to prioritize nodes. It finds the shortest solution path while guiding
+ * the search more efficiently than UCS.
+ *
+ * @param {PuzzleState} initState - The initial state of the Rush Hour puzzle.
+ * @param {(state: PuzzleState) => number} heuristicFn - A heuristic function that estimates
+ *        the cost from the given state to the goal.
+ * @returns {SearchOutput} An object containing:
+ *   - {SearchNode|null} node: The final goal node if a solution is found, otherwise `null`.
+ *   - {number} totalMove: The total number of unique nodes expanded during the search.
+ */
 function algoAStar(initState, heuristicFn){
     if (checkHorCarBlockingExit(initState)){
         return new SearchOutput(null, 0);

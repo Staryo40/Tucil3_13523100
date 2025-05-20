@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: '../../dist',
     emptyOutDir: true,
   },
-  base: './', // ✅ THIS is the fix (use relative paths for Electron)
+  base: './', 
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src/ui'),

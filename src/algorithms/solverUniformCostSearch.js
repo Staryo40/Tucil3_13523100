@@ -3,12 +3,17 @@ const { expandNode } = require('../solver/helper.js');
 const { getCostFunction, checkHorCarBlockingExit, isPrimaryOnGoal } = require('../solver/heuristic.js');
 
 /**
- * Performs Uniform Cost Search (UCS) on a given Rush Hour puzzle.
- * UCS always expands the node with the lowest cost (g(n)) from the start.
- * It stops as soon as the primary car reaches the goal position.
+ * Performs Uniform Cost Search (UCS) on the given Rush Hour puzzle state.
  *
- * @param {PuzzleState} initState - The initial puzzle state to solve.
- * @returns {SearchOutput} The goal node if a solution is found, otherwise null.
+ * UCS is a search algorithm that expands the node with the lowest total cost `g(n)`,
+ * ensuring the shortest-path solution is found. It terminates when the primary car
+ * reaches the goal position.
+ *
+ * @param {PuzzleState} initState - The initial puzzle state representing the board configuration.
+ * @returns {SearchOutput} An object containing:
+ *   - {PuzzleNode} node: The goal node representing the final state in the solution path.
+ *   - {number} totalMove: The number of unique nodes expanded during the search process.
+ *   If no solution is found, `node` may be `null`.
  */
 function uniformCostSearch(initState) {
     if (checkHorCarBlockingExit(initState)){

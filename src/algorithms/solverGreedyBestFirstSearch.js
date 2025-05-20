@@ -2,6 +2,20 @@ const { SearchNode, PuzzleState, SearchNodePriorityQueue, SearchOutput } = requi
 const { expandNode } = require('../solver/helper.js');
 const { getCostFunction, checkHorCarBlockingExit, isPrimaryOnGoal } = require('../solver/heuristic.js');
 
+/**
+ * Performs Greedy Best-First Search on the given Rush Hour puzzle state.
+ *
+ * Greedy Best-First Search uses only the heuristic estimate `h(n)` to choose the next node
+ * to explore, prioritizing nodes that appear closest to the goal. It does not guarantee the
+ * shortest path but can be faster than A* in practice.
+ *
+ * @param {PuzzleState} initState - The initial puzzle state representing the board configuration.
+ * @param {(state: PuzzleState) => number} heuristicFn - A heuristic function that estimates
+ *        the cost from the current state to the goal.
+ * @returns {SearchOutput} An object containing:
+ *   - {SearchNode|null} node: The goal node if a solution is found, otherwise `null`.
+ *   - {number} totalMove: The number of unique states expanded during the search.
+ */
 function greedyBestFirstSearch(initState, heuristicFn){
     if (checkHorCarBlockingExit(initState)){
         return new SearchOutput(null, 0);
