@@ -1,0 +1,12 @@
+10 10
+24
+AABBB..U..
+CC.DD..U..
+...PPP.U..K
+.EEFFF....
+GGG...RR..
+.HHIIJJ.WW
+V.LLLLMM..
+V.QQ..XX.T
+V.NNOO...T
+SS.YY..ZZZ

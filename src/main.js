@@ -3,6 +3,7 @@ const path = require('path');
 
 const { inputBoard, finalInputChecker } = require('./io/input.js');
 const { outputCreation, outputToFile } = require('./io/output.js');
+const { inputToPuzzleState } = require('./utils/structConverter.js');
 const { uniformCostSearch } = require('./algorithms/solverUniformCostSearch.js')
 const { greedyBestFirstSearch } = require('./algorithms/solverGreedyBestFirstSearch.js')
 const { algoAStar } = require('./algorithms/solverAstar.js')
@@ -44,22 +45,19 @@ ipcMain.handle('open-input', async () => {
     properties: ['openFile'],
   });
 
-  if (result.canceled || result.filePaths.length === 0) {
-    return { error: 'No file selected.' };
-  }
-
-  try {
     const filePath = result.filePaths[0];
+    if (!filePath) return null;
+
     const input = inputBoard(filePath);
     const pureinput = finalInputChecker(input);
 
     cachedInput = pureinput;
     cachedFilePath = filePath;
 
-    return pureinput;
-  } catch (err) {
-    return { error: 'Failed to read file.' };
-  }
+    return {
+      ...pureinput,
+      fileName: path.basename(filePath) 
+    };
 });
 
 ipcMain.handle('run-solver', async (event, config) => {
@@ -76,15 +74,16 @@ ipcMain.handle('run-solver', async (event, config) => {
 
   let solution = null;
   const start = performance.now();
+  const parsedInput = inputToPuzzleState(pureinput);
 
   if (algorithm === 'UCS') {
-    solution = uniformCostSearch(cachedInput);
+    solution = uniformCostSearch(parsedInput);
   } else if (algorithm === 'GBFS') {
-    solution = greedyBestFirstSearch(cachedInput, heuristicFn);
+    solution = greedyBestFirstSearch(parsedInput, heuristicFn);
   } else if (algorithm === 'A*') {
-    solution = algoAStar(cachedInput, heuristicFn);
+    solution = algoAStar(parsedInput, heuristicFn);
   } else if (algorithm === 'IDA*') {
-    solution = iterativeDeepeningAstar(cachedInput, heuristicFn);
+    solution = iterativeDeepeningAstar(parsedInput, heuristicFn);
   } else {
     return { error: 'Invalid algorithm' };
   }
