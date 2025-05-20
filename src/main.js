@@ -1,6 +1,5 @@
 const { app, BrowserWindow, ipcMain, dialog } = require('electron');
 const path = require('path');
-const fs = require('fs');
 
 const { inputBoard, finalInputChecker } = require('./io/input.js');
 const { outputCreation, outputToFile } = require('./io/output.js');
@@ -27,7 +26,7 @@ function createWindow() {
     }
     });
 
-    win.loadFile(path.join(__dirname, 'ui', 'index.html'));
+    win.loadFile(path.join(__dirname, '..', 'dist', 'index.html'));
 
     win.once('ready-to-show', () => {
     win.maximize();           // make it fullscreen-safe
@@ -39,6 +38,8 @@ app.whenReady().then(createWindow);
 
 ipcMain.handle('open-input', async () => {
   const result = await dialog.showOpenDialog({
+    title: 'Select Input File',
+    defaultPath: process.cwd(), // ✅ working directory
     filters: [{ name: 'Text Files', extensions: ['txt'] }],
     properties: ['openFile'],
   });
