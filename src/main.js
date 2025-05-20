@@ -62,7 +62,7 @@ ipcMain.handle('open-input', async () => {
 
 ipcMain.handle('run-solver', async (event, config) => {
   if (!cachedInput) return { error: 'No input loaded' };
-
+  
   const { algorithm, heuristic } = config;
 
   let heuristicFn = null;
@@ -74,7 +74,9 @@ ipcMain.handle('run-solver', async (event, config) => {
 
   let solution = null;
   const start = performance.now();
-  const parsedInput = inputToPuzzleState(pureinput);
+  const parsedInput = inputToPuzzleState(cachedInput);
+
+  console.log("Processing puzzle...")  
 
   if (algorithm === 'UCS') {
     solution = uniformCostSearch(parsedInput);
@@ -87,12 +89,28 @@ ipcMain.handle('run-solver', async (event, config) => {
   } else {
     return { error: 'Invalid algorithm' };
   }
+  
+  console.log("Algorithm process finished: solution resolved")  
 
   const end = performance.now();
   const time = (end - start).toFixed(3); 
   cachedOutput = outputCreation(time, solution.totalMove, solution.node);
 
-  return { success: true };
+  return {
+    time: cachedOutput.time,
+    totalMove: cachedOutput.totalMove,
+    moveCount: cachedOutput.moveCount,
+    mainMessage: cachedOutput.mainMessage,
+    states: cachedOutput.states.map(s => ({
+      message: s.message,
+      state: {
+        board: s.state.board,
+        row: s.state.row,
+        col: s.state.col,
+        goalPos: s.state.goalPos,
+      }
+    })),
+  };
 });
 
 
@@ -109,7 +127,7 @@ ipcMain.handle('export-output', async () => {
   });
 
   if (canceled || !filePath) {
-    return { error: 'Save operation cancelled.' };
+    return { cancelled: true };
   }
 
   try {

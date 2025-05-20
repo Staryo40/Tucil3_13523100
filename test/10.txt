@@ -2,7 +2,7 @@
 24
 AABBB..U..
 CC.DD..U..
-...PPP.U..K
+...PPP....K
 .EEFFF....
 GGG...RR..
 .HHIIJJ.WW
