@@ -22,13 +22,17 @@ function outputToFile(output, filePath) {
     lines.push('');
 
     // State output
-    let i = 0
-    for (const stateObj of output.states) {
-        lines.push(`Step ${i}`)
-        lines.push(`Message: ${stateObj.message}`);
-        lines.push(formatBoard(stateObj.state));
-        lines.push('');
-        i++;
+    if (!output.states){
+        lines.push(`No valid solution`)
+    } else {
+        let i = 0
+        for (const stateObj of output.states) {
+            lines.push(`Step ${i}`)
+            lines.push(`Message: ${stateObj.message}`);
+            lines.push(formatBoard(stateObj.state));
+            lines.push('');
+            i++;
+        }
     }
 
     // Write to file

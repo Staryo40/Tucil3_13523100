@@ -27,8 +27,6 @@ function greedyBestFirstSearch(initState, heuristicFn){
     const costFn = getCostFunction("Greedy", heuristicFn);
     let totalMove = 0;
 
-
-
     while (queue.length > 0) {
         const current = queue.dequeue(); 
 

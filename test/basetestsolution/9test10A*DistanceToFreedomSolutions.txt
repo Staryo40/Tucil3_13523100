@@ -1,0 +1,69 @@
+Execution time: 2.667 ms
+Total nodes visited: 4
+Result: Solution found
+Total moves: 4
+
+Step 0
+Message: Start of puzzle
+AABBB..U..
+CC.DD..U..
+...PPP.R..
+.EEFFF.R..
+GGGIL..R..
+.HHILJJJWW
+V.....MM..
+V.QQ..XX.T
+V.NNOOY..T
+SS....YZZZ
+
+Step 1
+Message: Car L moved 2 cells down
+AABBB..U..
+CC.DD..U..
+...PPP.R..
+.EEFFF.R..
+GGGI...R..
+.HHI.JJJWW
+V...L.MM..
+V.QQL.XX.T
+V.NNOOY..T
+SS....YZZZ
+
+Step 2
+Message: Car J moved 1 cell to the left
+AABBB..U..
+CC.DD..U..
+...PPP.R..
+.EEFFF.R..
+GGGI...R..
+.HHIJJJ.WW
+V...L.MM..
+V.QQL.XX.T
+V.NNOOY..T
+SS....YZZZ
+
+Step 3
+Message: Car R moved 1 cell down
+AABBB..U..
+CC.DD..U..
+...PPP....
+.EEFFF.R..
+GGGI...R..
+.HHIJJJRWW
+V...L.MM..
+V.QQL.XX.T
+V.NNOOY..T
+SS....YZZZ
+
+Step 4
+Message: Car P moved 4 cells to the right. Target car reached goal
+AABBB..U..
+CC.DD..U..
+.......PPP
+.EEFFF.R..
+GGGI...R..
+.HHIJJJRWW
+V...L.MM..
+V.QQL.XX.T
+V.NNOOY..T
+SS....YZZZ

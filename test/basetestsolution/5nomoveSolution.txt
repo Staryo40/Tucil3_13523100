@@ -1,0 +1,5 @@
+Execution time: 1.738 ms
+Total nodes visited: 1
+Result: Solution not found
+
+No valid solution

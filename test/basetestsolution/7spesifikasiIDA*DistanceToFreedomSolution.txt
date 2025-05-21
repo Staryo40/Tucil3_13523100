@@ -1,0 +1,58 @@
+Execution time: 1.021 ms
+Total nodes visited: 6
+Result: Solution found
+Total moves: 5
+
+Step 0
+Message: Start of puzzle
+AAB..F
+..BCDF
+GPPCDF
+GH.III
+GHJ...
+LLJMM.
+
+Step 1
+Message: Car C moved 1 cell up
+AABC.F
+..BCDF
+GPP.DF
+GH.III
+GHJ...
+LLJMM.
+
+Step 2
+Message: Car D moved 1 cell up
+AABCDF
+..BCDF
+GPP..F
+GH.III
+GHJ...
+LLJMM.
+
+Step 3
+Message: Car I moved 1 cell to the left
+AABCDF
+..BCDF
+GPP..F
+GHIII.
+GHJ...
+LLJMM.
+
+Step 4
+Message: Car F moved 3 cells down
+AABCD.
+..BCD.
+GPP...
+GHIIIF
+GHJ..F
+LLJMMF
+
+Step 5
+Message: Car P moved 3 cells to the right. Target car reached goal
+AABCD.
+..BCD.
+G...PP
+GHIIIF
+GHJ..F
+LLJMMF

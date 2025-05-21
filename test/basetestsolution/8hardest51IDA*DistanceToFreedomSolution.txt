@@ -1,0 +1,5224 @@
+Execution time: 8714.626 ms
+Total nodes visited: 1554
+Result: Solution found
+Total moves: 579
+
+Step 0
+Message: Start of puzzle
+ABB.C.
+ADE.CF
+ADEPPF
+GGGH.F
+..IHJJ
+LLIMM.
+
+Step 1
+Message: Car B moved 1 cell to the right
+A.BBC.
+ADE.CF
+ADEPPF
+GGGH.F
+..IHJJ
+LLIMM.
+
+Step 2
+Message: Car D moved 1 cell up
+ADBBC.
+ADE.CF
+A.EPPF
+GGGH.F
+..IHJJ
+LLIMM.
+
+Step 3
+Message: Car F moved 1 cell up
+ADBBCF
+ADE.CF
+A.EPPF
+GGGH..
+..IHJJ
+LLIMM.
+
+Step 4
+Message: Car D moved 1 cell down
+A.BBCF
+ADE.CF
+ADEPPF
+GGGH..
+..IHJJ
+LLIMM.
+
+Step 5
+Message: Car B moved 1 cell to the left
+ABB.CF
+ADE.CF
+ADEPPF
+GGGH..
+..IHJJ
+LLIMM.
+
+Step 6
+Message: Car M moved 1 cell to the right
+ABB.CF
+ADE.CF
+ADEPPF
+GGGH..
+..IHJJ
+LLI.MM
+
+Step 7
+Message: Car B moved 1 cell to the right
+A.BBCF
+ADE.CF
+ADEPPF
+GGGH..
+..IHJJ
+LLI.MM
+
+Step 8
+Message: Car D moved 1 cell up
+ADBBCF
+ADE.CF
+A.EPPF
+GGGH..
+..IHJJ
+LLI.MM
+
+Step 9
+Message: Car F moved 1 cell down
+ADBBC.
+ADE.CF
+A.EPPF
+GGGH.F
+..IHJJ
+LLI.MM
+
+Step 10
+Message: Car D moved 1 cell down
+A.BBC.
+ADE.CF
+ADEPPF
+GGGH.F
+..IHJJ
+LLI.MM
+
+Step 11
+Message: Car B moved 1 cell to the left
+ABB.C.
+ADE.CF
+ADEPPF
+GGGH.F
+..IHJJ
+LLI.MM
+
+Step 12
+Message: Car H moved 1 cell down
+ABB.C.
+ADE.CF
+ADEPPF
+GGG..F
+..IHJJ
+LLIHMM
+
+Step 13
+Message: Car B moved 1 cell to the right
+A.BBC.
+ADE.CF
+ADEPPF
+GGG..F
+..IHJJ
+LLIHMM
+
+Step 14
+Message: Car D moved 1 cell up
+ADBBC.
+ADE.CF
+A.EPPF
+GGG..F
+..IHJJ
+LLIHMM
+
+Step 15
+Message: Car F moved 1 cell up
+ADBBCF
+ADE.CF
+A.EPPF
+GGG...
+..IHJJ
+LLIHMM
+
+Step 16
+Message: Car D moved 1 cell down
+A.BBCF
+ADE.CF
+ADEPPF
+GGG...
+..IHJJ
+LLIHMM
+
+Step 17
+Message: Car B moved 1 cell to the left
+ABB.CF
+ADE.CF
+ADEPPF
+GGG...
+..IHJJ
+LLIHMM
+
+Step 18
+Message: Car G moved 1 cell to the right
+ABB.CF
+ADE.CF
+ADEPPF
+.GGG..
+..IHJJ
+LLIHMM
+
+Step 19
+Message: Car A moved 1 cell down
+.BB.CF
+ADE.CF
+ADEPPF
+AGGG..
+..IHJJ
+LLIHMM
+
+Step 20
+Message: Car A moved 1 cell down
+.BB.CF
+.DE.CF
+ADEPPF
+AGGG..
+A.IHJJ
+LLIHMM
+
+Step 21
+Message: Car B moved 1 cell to the left
+BB..CF
+.DE.CF
+ADEPPF
+AGGG..
+A.IHJJ
+LLIHMM
+
+Step 22
+Message: Car A moved 1 cell up
+BB..CF
+ADE.CF
+ADEPPF
+AGGG..
+..IHJJ
+LLIHMM
+
+Step 23
+Message: Car B moved 2 cells to the right
+..BBCF
+ADE.CF
+ADEPPF
+AGGG..
+..IHJJ
+LLIHMM
+
+Step 24
+Message: Car A moved 1 cell up
+A.BBCF
+ADE.CF
+ADEPPF
+.GGG..
+..IHJJ
+LLIHMM
+
+Step 25
+Message: Car A moved 2 cells down
+..BBCF
+.DE.CF
+ADEPPF
+AGGG..
+A.IHJJ
+LLIHMM
+
+Step 26
+Message: Car D moved 1 cell up
+.DBBCF
+.DE.CF
+A.EPPF
+AGGG..
+A.IHJJ
+LLIHMM
+
+Step 27
+Message: Car A moved 1 cell up
+.DBBCF
+ADE.CF
+A.EPPF
+AGGG..
+..IHJJ
+LLIHMM
+
+Step 28
+Message: Car A moved 1 cell up
+ADBBCF
+ADE.CF
+A.EPPF
+.GGG..
+..IHJJ
+LLIHMM
+
+Step 29
+Message: Car F moved 1 cell down
+ADBBC.
+ADE.CF
+A.EPPF
+.GGG.F
+..IHJJ
+LLIHMM
+
+Step 30
+Message: Car A moved 1 cell down
+.DBBC.
+ADE.CF
+A.EPPF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 31
+Message: Car A moved 1 cell down
+.DBBC.
+.DE.CF
+A.EPPF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 32
+Message: Car D moved 1 cell down
+..BBC.
+.DE.CF
+ADEPPF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 33
+Message: Car A moved 1 cell up
+..BBC.
+ADE.CF
+ADEPPF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 34
+Message: Car A moved 1 cell up
+A.BBC.
+ADE.CF
+ADEPPF
+.GGG.F
+..IHJJ
+LLIHMM
+
+Step 35
+Message: Car B moved 1 cell to the left
+ABB.C.
+ADE.CF
+ADEPPF
+.GGG.F
+..IHJJ
+LLIHMM
+
+Step 36
+Message: Car A moved 1 cell down
+.BB.C.
+ADE.CF
+ADEPPF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 37
+Message: Car A moved 1 cell down
+.BB.C.
+.DE.CF
+ADEPPF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 38
+Message: Car B moved 1 cell to the left
+BB..C.
+.DE.CF
+ADEPPF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 39
+Message: Car A moved 1 cell up
+BB..C.
+ADE.CF
+ADEPPF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 40
+Message: Car E moved 1 cell up
+BBE.C.
+ADE.CF
+AD.PPF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 41
+Message: Car A moved 1 cell down
+BBE.C.
+.DE.CF
+AD.PPF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 42
+Message: Car F moved 1 cell up
+BBE.CF
+.DE.CF
+AD.PPF
+AGGG..
+A.IHJJ
+LLIHMM
+
+Step 43
+Message: Car A moved 1 cell up
+BBE.CF
+ADE.CF
+AD.PPF
+AGGG..
+..IHJJ
+LLIHMM
+
+Step 44
+Message: Car P moved 1 cell to the left
+BBE.CF
+ADE.CF
+ADPP.F
+AGGG..
+..IHJJ
+LLIHMM
+
+Step 45
+Message: Car A moved 1 cell down
+BBE.CF
+.DE.CF
+ADPP.F
+AGGG..
+A.IHJJ
+LLIHMM
+
+Step 46
+Message: Car C moved 1 cell down
+BBE..F
+.DE.CF
+ADPPCF
+AGGG..
+A.IHJJ
+LLIHMM
+
+Step 47
+Message: Car A moved 1 cell up
+BBE..F
+ADE.CF
+ADPPCF
+AGGG..
+..IHJJ
+LLIHMM
+
+Step 48
+Message: Car C moved 1 cell down
+BBE..F
+ADE..F
+ADPPCF
+AGGGC.
+..IHJJ
+LLIHMM
+
+Step 49
+Message: Car A moved 1 cell down
+BBE..F
+.DE..F
+ADPPCF
+AGGGC.
+A.IHJJ
+LLIHMM
+
+Step 50
+Message: Car F moved 1 cell down
+BBE...
+.DE..F
+ADPPCF
+AGGGCF
+A.IHJJ
+LLIHMM
+
+Step 51
+Message: Car A moved 1 cell up
+BBE...
+ADE..F
+ADPPCF
+AGGGCF
+..IHJJ
+LLIHMM
+
+Step 52
+Message: Car C moved 1 cell up
+BBE...
+ADE.CF
+ADPPCF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 53
+Message: Car A moved 1 cell down
+BBE...
+.DE.CF
+ADPPCF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 54
+Message: Car C moved 1 cell up
+BBE.C.
+.DE.CF
+ADPP.F
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 55
+Message: Car A moved 1 cell up
+BBE.C.
+ADE.CF
+ADPP.F
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 56
+Message: Car G moved 1 cell to the right
+BBE.C.
+ADE.CF
+ADPP.F
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 57
+Message: Car A moved 1 cell down
+BBE.C.
+.DE.CF
+ADPP.F
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 58
+Message: Car C moved 1 cell down
+BBE...
+.DE.CF
+ADPPCF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 59
+Message: Car A moved 1 cell up
+BBE...
+ADE.CF
+ADPPCF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 60
+Message: Car D moved 1 cell down
+BBE...
+A.E.CF
+ADPPCF
+ADGGGF
+..IHJJ
+LLIHMM
+
+Step 61
+Message: Car A moved 1 cell down
+BBE...
+..E.CF
+ADPPCF
+ADGGGF
+A.IHJJ
+LLIHMM
+
+Step 62
+Message: Car C moved 1 cell up
+BBE.C.
+..E.CF
+ADPP.F
+ADGGGF
+A.IHJJ
+LLIHMM
+
+Step 63
+Message: Car A moved 1 cell up
+BBE.C.
+A.E.CF
+ADPP.F
+ADGGGF
+..IHJJ
+LLIHMM
+
+Step 64
+Message: Car D moved 1 cell down
+BBE.C.
+A.E.CF
+A.PP.F
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 65
+Message: Car A moved 1 cell down
+BBE.C.
+..E.CF
+A.PP.F
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 66
+Message: Car C moved 1 cell down
+BBE...
+..E.CF
+A.PPCF
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 67
+Message: Car A moved 1 cell up
+BBE...
+A.E.CF
+A.PPCF
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 68
+Message: Car F moved 1 cell up
+BBE..F
+A.E.CF
+A.PPCF
+ADGGG.
+.DIHJJ
+LLIHMM
+
+Step 69
+Message: Car A moved 1 cell down
+BBE..F
+..E.CF
+A.PPCF
+ADGGG.
+ADIHJJ
+LLIHMM
+
+Step 70
+Message: Car C moved 1 cell up
+BBE.CF
+..E.CF
+A.PP.F
+ADGGG.
+ADIHJJ
+LLIHMM
+
+Step 71
+Message: Car A moved 1 cell up
+BBE.CF
+A.E.CF
+A.PP.F
+ADGGG.
+.DIHJJ
+LLIHMM
+
+Step 72
+Message: Car D moved 1 cell up
+BBE.CF
+A.E.CF
+ADPP.F
+ADGGG.
+..IHJJ
+LLIHMM
+
+Step 73
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+ADPP.F
+ADGGG.
+A.IHJJ
+LLIHMM
+
+Step 74
+Message: Car C moved 1 cell down
+BBE..F
+..E.CF
+ADPPCF
+ADGGG.
+A.IHJJ
+LLIHMM
+
+Step 75
+Message: Car A moved 1 cell up
+BBE..F
+A.E.CF
+ADPPCF
+ADGGG.
+..IHJJ
+LLIHMM
+
+Step 76
+Message: Car D moved 1 cell up
+BBE..F
+ADE.CF
+ADPPCF
+A.GGG.
+..IHJJ
+LLIHMM
+
+Step 77
+Message: Car A moved 1 cell down
+BBE..F
+.DE.CF
+ADPPCF
+A.GGG.
+A.IHJJ
+LLIHMM
+
+Step 78
+Message: Car C moved 1 cell up
+BBE.CF
+.DE.CF
+ADPP.F
+A.GGG.
+A.IHJJ
+LLIHMM
+
+Step 79
+Message: Car A moved 1 cell up
+BBE.CF
+ADE.CF
+ADPP.F
+A.GGG.
+..IHJJ
+LLIHMM
+
+Step 80
+Message: Car P moved 1 cell to the right
+BBE.CF
+ADE.CF
+AD.PPF
+A.GGG.
+..IHJJ
+LLIHMM
+
+Step 81
+Message: Car A moved 1 cell down
+BBE.CF
+.DE.CF
+AD.PPF
+A.GGG.
+A.IHJJ
+LLIHMM
+
+Step 82
+Message: Car D moved 1 cell down
+BBE.CF
+..E.CF
+AD.PPF
+ADGGG.
+A.IHJJ
+LLIHMM
+
+Step 83
+Message: Car A moved 1 cell up
+BBE.CF
+A.E.CF
+AD.PPF
+ADGGG.
+..IHJJ
+LLIHMM
+
+Step 84
+Message: Car D moved 1 cell down
+BBE.CF
+A.E.CF
+A..PPF
+ADGGG.
+.DIHJJ
+LLIHMM
+
+Step 85
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+A..PPF
+ADGGG.
+ADIHJJ
+LLIHMM
+
+Step 86
+Message: Car E moved 1 cell down
+BB..CF
+..E.CF
+A.EPPF
+ADGGG.
+ADIHJJ
+LLIHMM
+
+Step 87
+Message: Car A moved 1 cell up
+BB..CF
+A.E.CF
+A.EPPF
+ADGGG.
+.DIHJJ
+LLIHMM
+
+Step 88
+Message: Car B moved 1 cell to the right
+.BB.CF
+A.E.CF
+A.EPPF
+ADGGG.
+.DIHJJ
+LLIHMM
+
+Step 89
+Message: Car A moved 1 cell up
+ABB.CF
+A.E.CF
+A.EPPF
+.DGGG.
+.DIHJJ
+LLIHMM
+
+Step 90
+Message: Car A moved 2 cells down
+.BB.CF
+..E.CF
+A.EPPF
+ADGGG.
+ADIHJJ
+LLIHMM
+
+Step 91
+Message: Car B moved 1 cell to the right
+..BBCF
+..E.CF
+A.EPPF
+ADGGG.
+ADIHJJ
+LLIHMM
+
+Step 92
+Message: Car A moved 1 cell up
+..BBCF
+A.E.CF
+A.EPPF
+ADGGG.
+.DIHJJ
+LLIHMM
+
+Step 93
+Message: Car A moved 1 cell up
+A.BBCF
+A.E.CF
+A.EPPF
+.DGGG.
+.DIHJJ
+LLIHMM
+
+Step 94
+Message: Car D moved 1 cell up
+A.BBCF
+A.E.CF
+ADEPPF
+.DGGG.
+..IHJJ
+LLIHMM
+
+Step 95
+Message: Car A moved 1 cell down
+..BBCF
+A.E.CF
+ADEPPF
+ADGGG.
+..IHJJ
+LLIHMM
+
+Step 96
+Message: Car A moved 1 cell down
+..BBCF
+..E.CF
+ADEPPF
+ADGGG.
+A.IHJJ
+LLIHMM
+
+Step 97
+Message: Car B moved 1 cell to the left
+.BB.CF
+..E.CF
+ADEPPF
+ADGGG.
+A.IHJJ
+LLIHMM
+
+Step 98
+Message: Car A moved 1 cell up
+.BB.CF
+A.E.CF
+ADEPPF
+ADGGG.
+..IHJJ
+LLIHMM
+
+Step 99
+Message: Car A moved 1 cell up
+ABB.CF
+A.E.CF
+ADEPPF
+.DGGG.
+..IHJJ
+LLIHMM
+
+Step 100
+Message: Car D moved 1 cell up
+ABB.CF
+ADE.CF
+ADEPPF
+..GGG.
+..IHJJ
+LLIHMM
+
+Step 101
+Message: Car A moved 1 cell down
+.BB.CF
+ADE.CF
+ADEPPF
+A.GGG.
+..IHJJ
+LLIHMM
+
+Step 102
+Message: Car A moved 1 cell down
+.BB.CF
+.DE.CF
+ADEPPF
+A.GGG.
+A.IHJJ
+LLIHMM
+
+Step 103
+Message: Car B moved 1 cell to the left
+BB..CF
+.DE.CF
+ADEPPF
+A.GGG.
+A.IHJJ
+LLIHMM
+
+Step 104
+Message: Car A moved 1 cell up
+BB..CF
+ADE.CF
+ADEPPF
+A.GGG.
+..IHJJ
+LLIHMM
+
+Step 105
+Message: Car B moved 2 cells to the right
+..BBCF
+ADE.CF
+ADEPPF
+A.GGG.
+..IHJJ
+LLIHMM
+
+Step 106
+Message: Car A moved 1 cell up
+A.BBCF
+ADE.CF
+ADEPPF
+..GGG.
+..IHJJ
+LLIHMM
+
+Step 107
+Message: Car A moved 2 cells down
+..BBCF
+.DE.CF
+ADEPPF
+A.GGG.
+A.IHJJ
+LLIHMM
+
+Step 108
+Message: Car D moved 1 cell up
+.DBBCF
+.DE.CF
+A.EPPF
+A.GGG.
+A.IHJJ
+LLIHMM
+
+Step 109
+Message: Car A moved 1 cell up
+.DBBCF
+ADE.CF
+A.EPPF
+A.GGG.
+..IHJJ
+LLIHMM
+
+Step 110
+Message: Car A moved 1 cell up
+ADBBCF
+ADE.CF
+A.EPPF
+..GGG.
+..IHJJ
+LLIHMM
+
+Step 111
+Message: Car F moved 1 cell down
+ADBBC.
+ADE.CF
+A.EPPF
+..GGGF
+..IHJJ
+LLIHMM
+
+Step 112
+Message: Car A moved 1 cell down
+.DBBC.
+ADE.CF
+A.EPPF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 113
+Message: Car A moved 1 cell down
+.DBBC.
+.DE.CF
+A.EPPF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 114
+Message: Car D moved 1 cell down
+..BBC.
+.DE.CF
+ADEPPF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 115
+Message: Car A moved 1 cell up
+..BBC.
+ADE.CF
+ADEPPF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 116
+Message: Car A moved 1 cell up
+A.BBC.
+ADE.CF
+ADEPPF
+..GGGF
+..IHJJ
+LLIHMM
+
+Step 117
+Message: Car B moved 1 cell to the left
+ABB.C.
+ADE.CF
+ADEPPF
+..GGGF
+..IHJJ
+LLIHMM
+
+Step 118
+Message: Car A moved 1 cell down
+.BB.C.
+ADE.CF
+ADEPPF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 119
+Message: Car A moved 1 cell down
+.BB.C.
+.DE.CF
+ADEPPF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 120
+Message: Car B moved 1 cell to the left
+BB..C.
+.DE.CF
+ADEPPF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 121
+Message: Car A moved 1 cell up
+BB..C.
+ADE.CF
+ADEPPF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 122
+Message: Car D moved 1 cell down
+BB..C.
+A.E.CF
+ADEPPF
+ADGGGF
+..IHJJ
+LLIHMM
+
+Step 123
+Message: Car A moved 1 cell down
+BB..C.
+..E.CF
+ADEPPF
+ADGGGF
+A.IHJJ
+LLIHMM
+
+Step 124
+Message: Car B moved 1 cell to the right
+.BB.C.
+..E.CF
+ADEPPF
+ADGGGF
+A.IHJJ
+LLIHMM
+
+Step 125
+Message: Car A moved 1 cell up
+.BB.C.
+A.E.CF
+ADEPPF
+ADGGGF
+..IHJJ
+LLIHMM
+
+Step 126
+Message: Car A moved 1 cell up
+ABB.C.
+A.E.CF
+ADEPPF
+.DGGGF
+..IHJJ
+LLIHMM
+
+Step 127
+Message: Car B moved 1 cell to the right
+A.BBC.
+A.E.CF
+ADEPPF
+.DGGGF
+..IHJJ
+LLIHMM
+
+Step 128
+Message: Car A moved 1 cell down
+..BBC.
+A.E.CF
+ADEPPF
+ADGGGF
+..IHJJ
+LLIHMM
+
+Step 129
+Message: Car A moved 1 cell down
+..BBC.
+..E.CF
+ADEPPF
+ADGGGF
+A.IHJJ
+LLIHMM
+
+Step 130
+Message: Car D moved 1 cell down
+..BBC.
+..E.CF
+A.EPPF
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 131
+Message: Car A moved 1 cell up
+..BBC.
+A.E.CF
+A.EPPF
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 132
+Message: Car A moved 1 cell up
+A.BBC.
+A.E.CF
+A.EPPF
+.DGGGF
+.DIHJJ
+LLIHMM
+
+Step 133
+Message: Car B moved 1 cell to the left
+ABB.C.
+A.E.CF
+A.EPPF
+.DGGGF
+.DIHJJ
+LLIHMM
+
+Step 134
+Message: Car A moved 1 cell down
+.BB.C.
+A.E.CF
+A.EPPF
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 135
+Message: Car A moved 1 cell down
+.BB.C.
+..E.CF
+A.EPPF
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 136
+Message: Car B moved 1 cell to the left
+BB..C.
+..E.CF
+A.EPPF
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 137
+Message: Car A moved 1 cell up
+BB..C.
+A.E.CF
+A.EPPF
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 138
+Message: Car E moved 1 cell up
+BBE.C.
+A.E.CF
+A..PPF
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 139
+Message: Car A moved 1 cell down
+BBE.C.
+..E.CF
+A..PPF
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 140
+Message: Car P moved 2 cells to the left
+BBE.C.
+..E.CF
+APP..F
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 141
+Message: Car A moved 1 cell up
+BBE.C.
+A.E.CF
+APP..F
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 142
+Message: Car C moved 1 cell down
+BBE...
+A.E.CF
+APP.CF
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 143
+Message: Car A moved 1 cell down
+BBE...
+..E.CF
+APP.CF
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 144
+Message: Car F moved 1 cell up
+BBE..F
+..E.CF
+APP.CF
+ADGGG.
+ADIHJJ
+LLIHMM
+
+Step 145
+Message: Car A moved 1 cell up
+BBE..F
+A.E.CF
+APP.CF
+ADGGG.
+.DIHJJ
+LLIHMM
+
+Step 146
+Message: Car C moved 1 cell up
+BBE.CF
+A.E.CF
+APP..F
+ADGGG.
+.DIHJJ
+LLIHMM
+
+Step 147
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+APP..F
+ADGGG.
+ADIHJJ
+LLIHMM
+
+Step 148
+Message: Car G moved 1 cell to the right
+BBE.CF
+..E.CF
+APP..F
+AD.GGG
+ADIHJJ
+LLIHMM
+
+Step 149
+Message: Car A moved 1 cell up
+BBE.CF
+A.E.CF
+APP..F
+AD.GGG
+.DIHJJ
+LLIHMM
+
+Step 150
+Message: Car C moved 1 cell down
+BBE..F
+A.E.CF
+APP.CF
+AD.GGG
+.DIHJJ
+LLIHMM
+
+Step 151
+Message: Car A moved 1 cell down
+BBE..F
+..E.CF
+APP.CF
+AD.GGG
+ADIHJJ
+LLIHMM
+
+Step 152
+Message: Car P moved 1 cell to the right
+BBE..F
+..E.CF
+A.PPCF
+AD.GGG
+ADIHJJ
+LLIHMM
+
+Step 153
+Message: Car A moved 1 cell up
+BBE..F
+A.E.CF
+A.PPCF
+AD.GGG
+.DIHJJ
+LLIHMM
+
+Step 154
+Message: Car C moved 1 cell up
+BBE.CF
+A.E.CF
+A.PP.F
+AD.GGG
+.DIHJJ
+LLIHMM
+
+Step 155
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+A.PP.F
+AD.GGG
+ADIHJJ
+LLIHMM
+
+Step 156
+Message: Car D moved 1 cell up
+BBE.CF
+..E.CF
+ADPP.F
+AD.GGG
+A.IHJJ
+LLIHMM
+
+Step 157
+Message: Car A moved 1 cell up
+BBE.CF
+A.E.CF
+ADPP.F
+AD.GGG
+..IHJJ
+LLIHMM
+
+Step 158
+Message: Car C moved 1 cell down
+BBE..F
+A.E.CF
+ADPPCF
+AD.GGG
+..IHJJ
+LLIHMM
+
+Step 159
+Message: Car A moved 1 cell down
+BBE..F
+..E.CF
+ADPPCF
+AD.GGG
+A.IHJJ
+LLIHMM
+
+Step 160
+Message: Car D moved 1 cell up
+BBE..F
+.DE.CF
+ADPPCF
+A..GGG
+A.IHJJ
+LLIHMM
+
+Step 161
+Message: Car A moved 1 cell up
+BBE..F
+ADE.CF
+ADPPCF
+A..GGG
+..IHJJ
+LLIHMM
+
+Step 162
+Message: Car C moved 1 cell up
+BBE.CF
+ADE.CF
+ADPP.F
+A..GGG
+..IHJJ
+LLIHMM
+
+Step 163
+Message: Car A moved 1 cell down
+BBE.CF
+.DE.CF
+ADPP.F
+A..GGG
+A.IHJJ
+LLIHMM
+
+Step 164
+Message: Car P moved 1 cell to the right
+BBE.CF
+.DE.CF
+AD.PPF
+A..GGG
+A.IHJJ
+LLIHMM
+
+Step 165
+Message: Car A moved 1 cell up
+BBE.CF
+ADE.CF
+AD.PPF
+A..GGG
+..IHJJ
+LLIHMM
+
+Step 166
+Message: Car D moved 1 cell down
+BBE.CF
+A.E.CF
+AD.PPF
+AD.GGG
+..IHJJ
+LLIHMM
+
+Step 167
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+AD.PPF
+AD.GGG
+A.IHJJ
+LLIHMM
+
+Step 168
+Message: Car D moved 1 cell down
+BBE.CF
+..E.CF
+A..PPF
+AD.GGG
+ADIHJJ
+LLIHMM
+
+Step 169
+Message: Car A moved 1 cell up
+BBE.CF
+A.E.CF
+A..PPF
+AD.GGG
+.DIHJJ
+LLIHMM
+
+Step 170
+Message: Car E moved 1 cell down
+BB..CF
+A.E.CF
+A.EPPF
+AD.GGG
+.DIHJJ
+LLIHMM
+
+Step 171
+Message: Car A moved 1 cell down
+BB..CF
+..E.CF
+A.EPPF
+AD.GGG
+ADIHJJ
+LLIHMM
+
+Step 172
+Message: Car B moved 1 cell to the right
+.BB.CF
+..E.CF
+A.EPPF
+AD.GGG
+ADIHJJ
+LLIHMM
+
+Step 173
+Message: Car A moved 1 cell up
+.BB.CF
+A.E.CF
+A.EPPF
+AD.GGG
+.DIHJJ
+LLIHMM
+
+Step 174
+Message: Car A moved 1 cell up
+ABB.CF
+A.E.CF
+A.EPPF
+.D.GGG
+.DIHJJ
+LLIHMM
+
+Step 175
+Message: Car B moved 1 cell to the right
+A.BBCF
+A.E.CF
+A.EPPF
+.D.GGG
+.DIHJJ
+LLIHMM
+
+Step 176
+Message: Car A moved 1 cell down
+..BBCF
+A.E.CF
+A.EPPF
+AD.GGG
+.DIHJJ
+LLIHMM
+
+Step 177
+Message: Car A moved 1 cell down
+..BBCF
+..E.CF
+A.EPPF
+AD.GGG
+ADIHJJ
+LLIHMM
+
+Step 178
+Message: Car D moved 1 cell up
+..BBCF
+..E.CF
+ADEPPF
+AD.GGG
+A.IHJJ
+LLIHMM
+
+Step 179
+Message: Car A moved 1 cell up
+..BBCF
+A.E.CF
+ADEPPF
+AD.GGG
+..IHJJ
+LLIHMM
+
+Step 180
+Message: Car A moved 1 cell up
+A.BBCF
+A.E.CF
+ADEPPF
+.D.GGG
+..IHJJ
+LLIHMM
+
+Step 181
+Message: Car B moved 1 cell to the left
+ABB.CF
+A.E.CF
+ADEPPF
+.D.GGG
+..IHJJ
+LLIHMM
+
+Step 182
+Message: Car A moved 1 cell down
+.BB.CF
+A.E.CF
+ADEPPF
+AD.GGG
+..IHJJ
+LLIHMM
+
+Step 183
+Message: Car A moved 1 cell down
+.BB.CF
+..E.CF
+ADEPPF
+AD.GGG
+A.IHJJ
+LLIHMM
+
+Step 184
+Message: Car B moved 1 cell to the left
+BB..CF
+..E.CF
+ADEPPF
+AD.GGG
+A.IHJJ
+LLIHMM
+
+Step 185
+Message: Car A moved 1 cell up
+BB..CF
+A.E.CF
+ADEPPF
+AD.GGG
+..IHJJ
+LLIHMM
+
+Step 186
+Message: Car D moved 1 cell up
+BB..CF
+ADE.CF
+ADEPPF
+A..GGG
+..IHJJ
+LLIHMM
+
+Step 187
+Message: Car A moved 1 cell down
+BB..CF
+.DE.CF
+ADEPPF
+A..GGG
+A.IHJJ
+LLIHMM
+
+Step 188
+Message: Car B moved 1 cell to the right
+.BB.CF
+.DE.CF
+ADEPPF
+A..GGG
+A.IHJJ
+LLIHMM
+
+Step 189
+Message: Car A moved 1 cell up
+.BB.CF
+ADE.CF
+ADEPPF
+A..GGG
+..IHJJ
+LLIHMM
+
+Step 190
+Message: Car A moved 1 cell up
+ABB.CF
+ADE.CF
+ADEPPF
+...GGG
+..IHJJ
+LLIHMM
+
+Step 191
+Message: Car B moved 1 cell to the right
+A.BBCF
+ADE.CF
+ADEPPF
+...GGG
+..IHJJ
+LLIHMM
+
+Step 192
+Message: Car A moved 1 cell down
+..BBCF
+ADE.CF
+ADEPPF
+A..GGG
+..IHJJ
+LLIHMM
+
+Step 193
+Message: Car A moved 1 cell down
+..BBCF
+.DE.CF
+ADEPPF
+A..GGG
+A.IHJJ
+LLIHMM
+
+Step 194
+Message: Car D moved 1 cell up
+.DBBCF
+.DE.CF
+A.EPPF
+A..GGG
+A.IHJJ
+LLIHMM
+
+Step 195
+Message: Car A moved 1 cell up
+.DBBCF
+ADE.CF
+A.EPPF
+A..GGG
+..IHJJ
+LLIHMM
+
+Step 196
+Message: Car A moved 1 cell up
+ADBBCF
+ADE.CF
+A.EPPF
+...GGG
+..IHJJ
+LLIHMM
+
+Step 197
+Message: Car I moved 1 cell up
+ADBBCF
+ADE.CF
+A.EPPF
+..IGGG
+..IHJJ
+LL.HMM
+
+Step 198
+Message: Car A moved 1 cell down
+.DBBCF
+ADE.CF
+A.EPPF
+A.IGGG
+..IHJJ
+LL.HMM
+
+Step 199
+Message: Car A moved 1 cell down
+.DBBCF
+.DE.CF
+A.EPPF
+A.IGGG
+A.IHJJ
+LL.HMM
+
+Step 200
+Message: Car D moved 1 cell down
+..BBCF
+.DE.CF
+ADEPPF
+A.IGGG
+A.IHJJ
+LL.HMM
+
+Step 201
+Message: Car A moved 1 cell up
+..BBCF
+ADE.CF
+ADEPPF
+A.IGGG
+..IHJJ
+LL.HMM
+
+Step 202
+Message: Car A moved 1 cell up
+A.BBCF
+ADE.CF
+ADEPPF
+..IGGG
+..IHJJ
+LL.HMM
+
+Step 203
+Message: Car B moved 1 cell to the left
+ABB.CF
+ADE.CF
+ADEPPF
+..IGGG
+..IHJJ
+LL.HMM
+
+Step 204
+Message: Car A moved 1 cell down
+.BB.CF
+ADE.CF
+ADEPPF
+A.IGGG
+..IHJJ
+LL.HMM
+
+Step 205
+Message: Car A moved 1 cell down
+.BB.CF
+.DE.CF
+ADEPPF
+A.IGGG
+A.IHJJ
+LL.HMM
+
+Step 206
+Message: Car B moved 1 cell to the left
+BB..CF
+.DE.CF
+ADEPPF
+A.IGGG
+A.IHJJ
+LL.HMM
+
+Step 207
+Message: Car A moved 1 cell up
+BB..CF
+ADE.CF
+ADEPPF
+A.IGGG
+..IHJJ
+LL.HMM
+
+Step 208
+Message: Car D moved 1 cell down
+BB..CF
+A.E.CF
+ADEPPF
+ADIGGG
+..IHJJ
+LL.HMM
+
+Step 209
+Message: Car A moved 1 cell down
+BB..CF
+..E.CF
+ADEPPF
+ADIGGG
+A.IHJJ
+LL.HMM
+
+Step 210
+Message: Car B moved 1 cell to the right
+.BB.CF
+..E.CF
+ADEPPF
+ADIGGG
+A.IHJJ
+LL.HMM
+
+Step 211
+Message: Car A moved 1 cell up
+.BB.CF
+A.E.CF
+ADEPPF
+ADIGGG
+..IHJJ
+LL.HMM
+
+Step 212
+Message: Car A moved 1 cell up
+ABB.CF
+A.E.CF
+ADEPPF
+.DIGGG
+..IHJJ
+LL.HMM
+
+Step 213
+Message: Car B moved 1 cell to the right
+A.BBCF
+A.E.CF
+ADEPPF
+.DIGGG
+..IHJJ
+LL.HMM
+
+Step 214
+Message: Car A moved 1 cell down
+..BBCF
+A.E.CF
+ADEPPF
+ADIGGG
+..IHJJ
+LL.HMM
+
+Step 215
+Message: Car A moved 1 cell down
+..BBCF
+..E.CF
+ADEPPF
+ADIGGG
+A.IHJJ
+LL.HMM
+
+Step 216
+Message: Car D moved 1 cell down
+..BBCF
+..E.CF
+A.EPPF
+ADIGGG
+ADIHJJ
+LL.HMM
+
+Step 217
+Message: Car A moved 1 cell up
+..BBCF
+A.E.CF
+A.EPPF
+ADIGGG
+.DIHJJ
+LL.HMM
+
+Step 218
+Message: Car A moved 1 cell up
+A.BBCF
+A.E.CF
+A.EPPF
+.DIGGG
+.DIHJJ
+LL.HMM
+
+Step 219
+Message: Car B moved 1 cell to the left
+ABB.CF
+A.E.CF
+A.EPPF
+.DIGGG
+.DIHJJ
+LL.HMM
+
+Step 220
+Message: Car A moved 1 cell down
+.BB.CF
+A.E.CF
+A.EPPF
+ADIGGG
+.DIHJJ
+LL.HMM
+
+Step 221
+Message: Car A moved 1 cell down
+.BB.CF
+..E.CF
+A.EPPF
+ADIGGG
+ADIHJJ
+LL.HMM
+
+Step 222
+Message: Car B moved 1 cell to the left
+BB..CF
+..E.CF
+A.EPPF
+ADIGGG
+ADIHJJ
+LL.HMM
+
+Step 223
+Message: Car A moved 1 cell up
+BB..CF
+A.E.CF
+A.EPPF
+ADIGGG
+.DIHJJ
+LL.HMM
+
+Step 224
+Message: Car E moved 1 cell up
+BBE.CF
+A.E.CF
+A..PPF
+ADIGGG
+.DIHJJ
+LL.HMM
+
+Step 225
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+A..PPF
+ADIGGG
+ADIHJJ
+LL.HMM
+
+Step 226
+Message: Car D moved 1 cell up
+BBE.CF
+..E.CF
+AD.PPF
+ADIGGG
+A.IHJJ
+LL.HMM
+
+Step 227
+Message: Car A moved 1 cell up
+BBE.CF
+A.E.CF
+AD.PPF
+ADIGGG
+..IHJJ
+LL.HMM
+
+Step 228
+Message: Car D moved 1 cell up
+BBE.CF
+ADE.CF
+AD.PPF
+A.IGGG
+..IHJJ
+LL.HMM
+
+Step 229
+Message: Car A moved 1 cell down
+BBE.CF
+.DE.CF
+AD.PPF
+A.IGGG
+A.IHJJ
+LL.HMM
+
+Step 230
+Message: Car P moved 1 cell to the left
+BBE.CF
+.DE.CF
+ADPP.F
+A.IGGG
+A.IHJJ
+LL.HMM
+
+Step 231
+Message: Car A moved 1 cell up
+BBE.CF
+ADE.CF
+ADPP.F
+A.IGGG
+..IHJJ
+LL.HMM
+
+Step 232
+Message: Car C moved 1 cell down
+BBE..F
+ADE.CF
+ADPPCF
+A.IGGG
+..IHJJ
+LL.HMM
+
+Step 233
+Message: Car A moved 1 cell down
+BBE..F
+.DE.CF
+ADPPCF
+A.IGGG
+A.IHJJ
+LL.HMM
+
+Step 234
+Message: Car D moved 1 cell down
+BBE..F
+..E.CF
+ADPPCF
+ADIGGG
+A.IHJJ
+LL.HMM
+
+Step 235
+Message: Car A moved 1 cell up
+BBE..F
+A.E.CF
+ADPPCF
+ADIGGG
+..IHJJ
+LL.HMM
+
+Step 236
+Message: Car C moved 1 cell up
+BBE.CF
+A.E.CF
+ADPP.F
+ADIGGG
+..IHJJ
+LL.HMM
+
+Step 237
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+ADPP.F
+ADIGGG
+A.IHJJ
+LL.HMM
+
+Step 238
+Message: Car D moved 1 cell down
+BBE.CF
+..E.CF
+A.PP.F
+ADIGGG
+ADIHJJ
+LL.HMM
+
+Step 239
+Message: Car A moved 1 cell up
+BBE.CF
+A.E.CF
+A.PP.F
+ADIGGG
+.DIHJJ
+LL.HMM
+
+Step 240
+Message: Car C moved 1 cell down
+BBE..F
+A.E.CF
+A.PPCF
+ADIGGG
+.DIHJJ
+LL.HMM
+
+Step 241
+Message: Car A moved 1 cell down
+BBE..F
+..E.CF
+A.PPCF
+ADIGGG
+ADIHJJ
+LL.HMM
+
+Step 242
+Message: Car P moved 1 cell to the left
+BBE..F
+..E.CF
+APP.CF
+ADIGGG
+ADIHJJ
+LL.HMM
+
+Step 243
+Message: Car A moved 1 cell up
+BBE..F
+A.E.CF
+APP.CF
+ADIGGG
+.DIHJJ
+LL.HMM
+
+Step 244
+Message: Car C moved 1 cell up
+BBE.CF
+A.E.CF
+APP..F
+ADIGGG
+.DIHJJ
+LL.HMM
+
+Step 245
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+APP..F
+ADIGGG
+ADIHJJ
+LL.HMM
+
+Step 246
+Message: Car L moved 1 cell to the right
+BBE.CF
+..E.CF
+APP..F
+ADIGGG
+ADIHJJ
+.LLHMM
+
+Step 247
+Message: Car A moved 1 cell up
+BBE.CF
+A.E.CF
+APP..F
+ADIGGG
+.DIHJJ
+.LLHMM
+
+Step 248
+Message: Car A moved 2 cells down
+BBE.CF
+..E.CF
+.PP..F
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 249
+Message: Car C moved 1 cell down
+BBE..F
+..E.CF
+.PP.CF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 250
+Message: Car A moved 1 cell up
+BBE..F
+..E.CF
+APP.CF
+ADIGGG
+ADIHJJ
+.LLHMM
+
+Step 251
+Message: Car A moved 1 cell up
+BBE..F
+A.E.CF
+APP.CF
+ADIGGG
+.DIHJJ
+.LLHMM
+
+Step 252
+Message: Car P moved 1 cell to the right
+BBE..F
+A.E.CF
+A.PPCF
+ADIGGG
+.DIHJJ
+.LLHMM
+
+Step 253
+Message: Car A moved 1 cell down
+BBE..F
+..E.CF
+A.PPCF
+ADIGGG
+ADIHJJ
+.LLHMM
+
+Step 254
+Message: Car A moved 1 cell down
+BBE..F
+..E.CF
+..PPCF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 255
+Message: Car C moved 1 cell up
+BBE.CF
+..E.CF
+..PP.F
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 256
+Message: Car A moved 1 cell up
+BBE.CF
+..E.CF
+A.PP.F
+ADIGGG
+ADIHJJ
+.LLHMM
+
+Step 257
+Message: Car A moved 1 cell up
+BBE.CF
+A.E.CF
+A.PP.F
+ADIGGG
+.DIHJJ
+.LLHMM
+
+Step 258
+Message: Car D moved 1 cell up
+BBE.CF
+A.E.CF
+ADPP.F
+ADIGGG
+..IHJJ
+.LLHMM
+
+Step 259
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+ADPP.F
+ADIGGG
+A.IHJJ
+.LLHMM
+
+Step 260
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+.DPP.F
+ADIGGG
+A.IHJJ
+ALLHMM
+
+Step 261
+Message: Car C moved 1 cell down
+BBE..F
+..E.CF
+.DPPCF
+ADIGGG
+A.IHJJ
+ALLHMM
+
+Step 262
+Message: Car A moved 1 cell up
+BBE..F
+..E.CF
+ADPPCF
+ADIGGG
+A.IHJJ
+.LLHMM
+
+Step 263
+Message: Car A moved 1 cell up
+BBE..F
+A.E.CF
+ADPPCF
+ADIGGG
+..IHJJ
+.LLHMM
+
+Step 264
+Message: Car D moved 1 cell up
+BBE..F
+ADE.CF
+ADPPCF
+A.IGGG
+..IHJJ
+.LLHMM
+
+Step 265
+Message: Car A moved 1 cell down
+BBE..F
+.DE.CF
+ADPPCF
+A.IGGG
+A.IHJJ
+.LLHMM
+
+Step 266
+Message: Car A moved 1 cell down
+BBE..F
+.DE.CF
+.DPPCF
+A.IGGG
+A.IHJJ
+ALLHMM
+
+Step 267
+Message: Car C moved 1 cell up
+BBE.CF
+.DE.CF
+.DPP.F
+A.IGGG
+A.IHJJ
+ALLHMM
+
+Step 268
+Message: Car A moved 1 cell up
+BBE.CF
+.DE.CF
+ADPP.F
+A.IGGG
+A.IHJJ
+.LLHMM
+
+Step 269
+Message: Car A moved 1 cell up
+BBE.CF
+ADE.CF
+ADPP.F
+A.IGGG
+..IHJJ
+.LLHMM
+
+Step 270
+Message: Car P moved 1 cell to the right
+BBE.CF
+ADE.CF
+AD.PPF
+A.IGGG
+..IHJJ
+.LLHMM
+
+Step 271
+Message: Car A moved 1 cell down
+BBE.CF
+.DE.CF
+AD.PPF
+A.IGGG
+A.IHJJ
+.LLHMM
+
+Step 272
+Message: Car A moved 1 cell down
+BBE.CF
+.DE.CF
+.D.PPF
+A.IGGG
+A.IHJJ
+ALLHMM
+
+Step 273
+Message: Car D moved 1 cell down
+BBE.CF
+..E.CF
+.D.PPF
+ADIGGG
+A.IHJJ
+ALLHMM
+
+Step 274
+Message: Car A moved 1 cell up
+BBE.CF
+..E.CF
+AD.PPF
+ADIGGG
+A.IHJJ
+.LLHMM
+
+Step 275
+Message: Car A moved 1 cell up
+BBE.CF
+A.E.CF
+AD.PPF
+ADIGGG
+..IHJJ
+.LLHMM
+
+Step 276
+Message: Car D moved 1 cell down
+BBE.CF
+A.E.CF
+A..PPF
+ADIGGG
+.DIHJJ
+.LLHMM
+
+Step 277
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+A..PPF
+ADIGGG
+ADIHJJ
+.LLHMM
+
+Step 278
+Message: Car A moved 1 cell down
+BBE.CF
+..E.CF
+...PPF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 279
+Message: Car P moved 3 cells to the left
+BBE.CF
+..E.CF
+PP...F
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 280
+Message: Car C moved 1 cell down
+BBE..F
+..E.CF
+PP..CF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 281
+Message: Car E moved 1 cell down
+BB...F
+..E.CF
+PPE.CF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 282
+Message: Car B moved 1 cell to the right
+.BB..F
+..E.CF
+PPE.CF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 283
+Message: Car B moved 1 cell to the right
+..BB.F
+..E.CF
+PPE.CF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 284
+Message: Car B moved 1 cell to the right
+...BBF
+..E.CF
+PPE.CF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 285
+Message: Car E moved 1 cell up
+..EBBF
+..E.CF
+PP..CF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 286
+Message: Car P moved 1 cell to the right
+..EBBF
+..E.CF
+.PP.CF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 287
+Message: Car A moved 1 cell up
+..EBBF
+..E.CF
+APP.CF
+ADIGGG
+ADIHJJ
+.LLHMM
+
+Step 288
+Message: Car A moved 1 cell up
+..EBBF
+A.E.CF
+APP.CF
+ADIGGG
+.DIHJJ
+.LLHMM
+
+Step 289
+Message: Car A moved 1 cell up
+A.EBBF
+A.E.CF
+APP.CF
+.DIGGG
+.DIHJJ
+.LLHMM
+
+Step 290
+Message: Car P moved 1 cell to the right
+A.EBBF
+A.E.CF
+A.PPCF
+.DIGGG
+.DIHJJ
+.LLHMM
+
+Step 291
+Message: Car A moved 1 cell down
+..EBBF
+A.E.CF
+A.PPCF
+ADIGGG
+.DIHJJ
+.LLHMM
+
+Step 292
+Message: Car A moved 1 cell down
+..EBBF
+..E.CF
+A.PPCF
+ADIGGG
+ADIHJJ
+.LLHMM
+
+Step 293
+Message: Car A moved 1 cell down
+..EBBF
+..E.CF
+..PPCF
+ADIGGG
+ADIHJJ
+ALLHMM
+
+Step 294
+Message: Car D moved 1 cell up
+..EBBF
+..E.CF
+.DPPCF
+ADIGGG
+A.IHJJ
+ALLHMM
+
+Step 295
+Message: Car A moved 1 cell up
+..EBBF
+..E.CF
+ADPPCF
+ADIGGG
+A.IHJJ
+.LLHMM
+
+Step 296
+Message: Car A moved 1 cell up
+..EBBF
+A.E.CF
+ADPPCF
+ADIGGG
+..IHJJ
+.LLHMM
+
+Step 297
+Message: Car A moved 1 cell up
+A.EBBF
+A.E.CF
+ADPPCF
+.DIGGG
+..IHJJ
+.LLHMM
+
+Step 298
+Message: Car D moved 1 cell up
+A.EBBF
+ADE.CF
+ADPPCF
+..IGGG
+..IHJJ
+.LLHMM
+
+Step 299
+Message: Car A moved 1 cell down
+..EBBF
+ADE.CF
+ADPPCF
+A.IGGG
+..IHJJ
+.LLHMM
+
+Step 300
+Message: Car A moved 1 cell down
+..EBBF
+.DE.CF
+ADPPCF
+A.IGGG
+A.IHJJ
+.LLHMM
+
+Step 301
+Message: Car A moved 1 cell down
+..EBBF
+.DE.CF
+.DPPCF
+A.IGGG
+A.IHJJ
+ALLHMM
+
+Step 302
+Message: Car D moved 1 cell up
+.DEBBF
+.DE.CF
+..PPCF
+A.IGGG
+A.IHJJ
+ALLHMM
+
+Step 303
+Message: Car A moved 1 cell up
+.DEBBF
+.DE.CF
+A.PPCF
+A.IGGG
+A.IHJJ
+.LLHMM
+
+Step 304
+Message: Car A moved 1 cell up
+.DEBBF
+ADE.CF
+A.PPCF
+A.IGGG
+..IHJJ
+.LLHMM
+
+Step 305
+Message: Car A moved 1 cell up
+ADEBBF
+ADE.CF
+A.PPCF
+..IGGG
+..IHJJ
+.LLHMM
+
+Step 306
+Message: Car P moved 1 cell to the left
+ADEBBF
+ADE.CF
+APP.CF
+..IGGG
+..IHJJ
+.LLHMM
+
+Step 307
+Message: Car A moved 1 cell down
+.DEBBF
+ADE.CF
+APP.CF
+A.IGGG
+..IHJJ
+.LLHMM
+
+Step 308
+Message: Car A moved 1 cell down
+.DEBBF
+.DE.CF
+APP.CF
+A.IGGG
+A.IHJJ
+.LLHMM
+
+Step 309
+Message: Car L moved 1 cell to the left
+.DEBBF
+.DE.CF
+APP.CF
+A.IGGG
+A.IHJJ
+LL.HMM
+
+Step 310
+Message: Car A moved 1 cell up
+.DEBBF
+ADE.CF
+APP.CF
+A.IGGG
+..IHJJ
+LL.HMM
+
+Step 311
+Message: Car A moved 1 cell up
+ADEBBF
+ADE.CF
+APP.CF
+..IGGG
+..IHJJ
+LL.HMM
+
+Step 312
+Message: Car P moved 1 cell to the right
+ADEBBF
+ADE.CF
+A.PPCF
+..IGGG
+..IHJJ
+LL.HMM
+
+Step 313
+Message: Car A moved 1 cell down
+.DEBBF
+ADE.CF
+A.PPCF
+A.IGGG
+..IHJJ
+LL.HMM
+
+Step 314
+Message: Car A moved 1 cell down
+.DEBBF
+.DE.CF
+A.PPCF
+A.IGGG
+A.IHJJ
+LL.HMM
+
+Step 315
+Message: Car D moved 1 cell down
+..EBBF
+.DE.CF
+ADPPCF
+A.IGGG
+A.IHJJ
+LL.HMM
+
+Step 316
+Message: Car A moved 1 cell up
+..EBBF
+ADE.CF
+ADPPCF
+A.IGGG
+..IHJJ
+LL.HMM
+
+Step 317
+Message: Car A moved 1 cell up
+A.EBBF
+ADE.CF
+ADPPCF
+..IGGG
+..IHJJ
+LL.HMM
+
+Step 318
+Message: Car D moved 1 cell down
+A.EBBF
+A.E.CF
+ADPPCF
+.DIGGG
+..IHJJ
+LL.HMM
+
+Step 319
+Message: Car A moved 1 cell down
+..EBBF
+A.E.CF
+ADPPCF
+ADIGGG
+..IHJJ
+LL.HMM
+
+Step 320
+Message: Car A moved 1 cell down
+..EBBF
+..E.CF
+ADPPCF
+ADIGGG
+A.IHJJ
+LL.HMM
+
+Step 321
+Message: Car D moved 1 cell down
+..EBBF
+..E.CF
+A.PPCF
+ADIGGG
+ADIHJJ
+LL.HMM
+
+Step 322
+Message: Car A moved 1 cell up
+..EBBF
+A.E.CF
+A.PPCF
+ADIGGG
+.DIHJJ
+LL.HMM
+
+Step 323
+Message: Car A moved 1 cell up
+A.EBBF
+A.E.CF
+A.PPCF
+.DIGGG
+.DIHJJ
+LL.HMM
+
+Step 324
+Message: Car P moved 1 cell to the left
+A.EBBF
+A.E.CF
+APP.CF
+.DIGGG
+.DIHJJ
+LL.HMM
+
+Step 325
+Message: Car A moved 1 cell down
+..EBBF
+A.E.CF
+APP.CF
+ADIGGG
+.DIHJJ
+LL.HMM
+
+Step 326
+Message: Car A moved 1 cell down
+..EBBF
+..E.CF
+APP.CF
+ADIGGG
+ADIHJJ
+LL.HMM
+
+Step 327
+Message: Car I moved 1 cell down
+..EBBF
+..E.CF
+APP.CF
+AD.GGG
+ADIHJJ
+LLIHMM
+
+Step 328
+Message: Car A moved 1 cell up
+..EBBF
+A.E.CF
+APP.CF
+AD.GGG
+.DIHJJ
+LLIHMM
+
+Step 329
+Message: Car A moved 1 cell up
+A.EBBF
+A.E.CF
+APP.CF
+.D.GGG
+.DIHJJ
+LLIHMM
+
+Step 330
+Message: Car P moved 1 cell to the right
+A.EBBF
+A.E.CF
+A.PPCF
+.D.GGG
+.DIHJJ
+LLIHMM
+
+Step 331
+Message: Car A moved 1 cell down
+..EBBF
+A.E.CF
+A.PPCF
+AD.GGG
+.DIHJJ
+LLIHMM
+
+Step 332
+Message: Car A moved 1 cell down
+..EBBF
+..E.CF
+A.PPCF
+AD.GGG
+ADIHJJ
+LLIHMM
+
+Step 333
+Message: Car D moved 1 cell up
+..EBBF
+..E.CF
+ADPPCF
+AD.GGG
+A.IHJJ
+LLIHMM
+
+Step 334
+Message: Car A moved 1 cell up
+..EBBF
+A.E.CF
+ADPPCF
+AD.GGG
+..IHJJ
+LLIHMM
+
+Step 335
+Message: Car A moved 1 cell up
+A.EBBF
+A.E.CF
+ADPPCF
+.D.GGG
+..IHJJ
+LLIHMM
+
+Step 336
+Message: Car D moved 1 cell up
+A.EBBF
+ADE.CF
+ADPPCF
+...GGG
+..IHJJ
+LLIHMM
+
+Step 337
+Message: Car A moved 1 cell down
+..EBBF
+ADE.CF
+ADPPCF
+A..GGG
+..IHJJ
+LLIHMM
+
+Step 338
+Message: Car A moved 1 cell down
+..EBBF
+.DE.CF
+ADPPCF
+A..GGG
+A.IHJJ
+LLIHMM
+
+Step 339
+Message: Car D moved 1 cell up
+.DEBBF
+.DE.CF
+A.PPCF
+A..GGG
+A.IHJJ
+LLIHMM
+
+Step 340
+Message: Car A moved 1 cell up
+.DEBBF
+ADE.CF
+A.PPCF
+A..GGG
+..IHJJ
+LLIHMM
+
+Step 341
+Message: Car A moved 1 cell up
+ADEBBF
+ADE.CF
+A.PPCF
+...GGG
+..IHJJ
+LLIHMM
+
+Step 342
+Message: Car P moved 1 cell to the left
+ADEBBF
+ADE.CF
+APP.CF
+...GGG
+..IHJJ
+LLIHMM
+
+Step 343
+Message: Car A moved 1 cell down
+.DEBBF
+ADE.CF
+APP.CF
+A..GGG
+..IHJJ
+LLIHMM
+
+Step 344
+Message: Car A moved 1 cell down
+.DEBBF
+.DE.CF
+APP.CF
+A..GGG
+A.IHJJ
+LLIHMM
+
+Step 345
+Message: Car G moved 1 cell to the left
+.DEBBF
+.DE.CF
+APP.CF
+A.GGG.
+A.IHJJ
+LLIHMM
+
+Step 346
+Message: Car A moved 1 cell up
+.DEBBF
+ADE.CF
+APP.CF
+A.GGG.
+..IHJJ
+LLIHMM
+
+Step 347
+Message: Car A moved 1 cell up
+ADEBBF
+ADE.CF
+APP.CF
+..GGG.
+..IHJJ
+LLIHMM
+
+Step 348
+Message: Car F moved 1 cell down
+ADEBB.
+ADE.CF
+APP.CF
+..GGGF
+..IHJJ
+LLIHMM
+
+Step 349
+Message: Car A moved 1 cell down
+.DEBB.
+ADE.CF
+APP.CF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 350
+Message: Car A moved 1 cell down
+.DEBB.
+.DE.CF
+APP.CF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 351
+Message: Car B moved 1 cell to the right
+.DE.BB
+.DE.CF
+APP.CF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 352
+Message: Car A moved 1 cell up
+.DE.BB
+ADE.CF
+APP.CF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 353
+Message: Car A moved 1 cell up
+ADE.BB
+ADE.CF
+APP.CF
+..GGGF
+..IHJJ
+LLIHMM
+
+Step 354
+Message: Car P moved 1 cell to the right
+ADE.BB
+ADE.CF
+A.PPCF
+..GGGF
+..IHJJ
+LLIHMM
+
+Step 355
+Message: Car A moved 1 cell down
+.DE.BB
+ADE.CF
+A.PPCF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 356
+Message: Car A moved 1 cell down
+.DE.BB
+.DE.CF
+A.PPCF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 357
+Message: Car B moved 1 cell to the left
+.DEBB.
+.DE.CF
+A.PPCF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 358
+Message: Car A moved 1 cell up
+.DEBB.
+ADE.CF
+A.PPCF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 359
+Message: Car A moved 1 cell up
+ADEBB.
+ADE.CF
+A.PPCF
+..GGGF
+..IHJJ
+LLIHMM
+
+Step 360
+Message: Car D moved 1 cell down
+A.EBB.
+ADE.CF
+ADPPCF
+..GGGF
+..IHJJ
+LLIHMM
+
+Step 361
+Message: Car A moved 1 cell down
+..EBB.
+ADE.CF
+ADPPCF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 362
+Message: Car A moved 1 cell down
+..EBB.
+.DE.CF
+ADPPCF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 363
+Message: Car B moved 1 cell to the right
+..E.BB
+.DE.CF
+ADPPCF
+A.GGGF
+A.IHJJ
+LLIHMM
+
+Step 364
+Message: Car A moved 1 cell up
+..E.BB
+ADE.CF
+ADPPCF
+A.GGGF
+..IHJJ
+LLIHMM
+
+Step 365
+Message: Car A moved 1 cell up
+A.E.BB
+ADE.CF
+ADPPCF
+..GGGF
+..IHJJ
+LLIHMM
+
+Step 366
+Message: Car D moved 1 cell down
+A.E.BB
+A.E.CF
+ADPPCF
+.DGGGF
+..IHJJ
+LLIHMM
+
+Step 367
+Message: Car A moved 1 cell down
+..E.BB
+A.E.CF
+ADPPCF
+ADGGGF
+..IHJJ
+LLIHMM
+
+Step 368
+Message: Car A moved 1 cell down
+..E.BB
+..E.CF
+ADPPCF
+ADGGGF
+A.IHJJ
+LLIHMM
+
+Step 369
+Message: Car B moved 1 cell to the left
+..EBB.
+..E.CF
+ADPPCF
+ADGGGF
+A.IHJJ
+LLIHMM
+
+Step 370
+Message: Car A moved 1 cell up
+..EBB.
+A.E.CF
+ADPPCF
+ADGGGF
+..IHJJ
+LLIHMM
+
+Step 371
+Message: Car A moved 1 cell up
+A.EBB.
+A.E.CF
+ADPPCF
+.DGGGF
+..IHJJ
+LLIHMM
+
+Step 372
+Message: Car D moved 1 cell down
+A.EBB.
+A.E.CF
+A.PPCF
+.DGGGF
+.DIHJJ
+LLIHMM
+
+Step 373
+Message: Car A moved 1 cell down
+..EBB.
+A.E.CF
+A.PPCF
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 374
+Message: Car A moved 1 cell down
+..EBB.
+..E.CF
+A.PPCF
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 375
+Message: Car B moved 1 cell to the right
+..E.BB
+..E.CF
+A.PPCF
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 376
+Message: Car A moved 1 cell up
+..E.BB
+A.E.CF
+A.PPCF
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 377
+Message: Car A moved 1 cell up
+A.E.BB
+A.E.CF
+A.PPCF
+.DGGGF
+.DIHJJ
+LLIHMM
+
+Step 378
+Message: Car P moved 1 cell to the left
+A.E.BB
+A.E.CF
+APP.CF
+.DGGGF
+.DIHJJ
+LLIHMM
+
+Step 379
+Message: Car A moved 1 cell down
+..E.BB
+A.E.CF
+APP.CF
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 380
+Message: Car A moved 1 cell down
+..E.BB
+..E.CF
+APP.CF
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 381
+Message: Car B moved 1 cell to the left
+..EBB.
+..E.CF
+APP.CF
+ADGGGF
+ADIHJJ
+LLIHMM
+
+Step 382
+Message: Car A moved 1 cell up
+..EBB.
+A.E.CF
+APP.CF
+ADGGGF
+.DIHJJ
+LLIHMM
+
+Step 383
+Message: Car A moved 1 cell up
+A.EBB.
+A.E.CF
+APP.CF
+.DGGGF
+.DIHJJ
+LLIHMM
+
+Step 384
+Message: Car F moved 1 cell up
+A.EBBF
+A.E.CF
+APP.CF
+.DGGG.
+.DIHJJ
+LLIHMM
+
+Step 385
+Message: Car A moved 1 cell down
+..EBBF
+A.E.CF
+APP.CF
+ADGGG.
+.DIHJJ
+LLIHMM
+
+Step 386
+Message: Car A moved 1 cell down
+..EBBF
+..E.CF
+APP.CF
+ADGGG.
+ADIHJJ
+LLIHMM
+
+Step 387
+Message: Car P moved 1 cell to the right
+..EBBF
+..E.CF
+A.PPCF
+ADGGG.
+ADIHJJ
+LLIHMM
+
+Step 388
+Message: Car A moved 1 cell up
+..EBBF
+A.E.CF
+A.PPCF
+ADGGG.
+.DIHJJ
+LLIHMM
+
+Step 389
+Message: Car A moved 1 cell up
+A.EBBF
+A.E.CF
+A.PPCF
+.DGGG.
+.DIHJJ
+LLIHMM
+
+Step 390
+Message: Car D moved 1 cell up
+A.EBBF
+A.E.CF
+ADPPCF
+.DGGG.
+..IHJJ
+LLIHMM
+
+Step 391
+Message: Car A moved 1 cell down
+..EBBF
+A.E.CF
+ADPPCF
+ADGGG.
+..IHJJ
+LLIHMM
+
+Step 392
+Message: Car A moved 1 cell down
+..EBBF
+..E.CF
+ADPPCF
+ADGGG.
+A.IHJJ
+LLIHMM
+
+Step 393
+Message: Car D moved 1 cell up
+..EBBF
+.DE.CF
+ADPPCF
+A.GGG.
+A.IHJJ
+LLIHMM
+
+Step 394
+Message: Car A moved 1 cell up
+..EBBF
+ADE.CF
+ADPPCF
+A.GGG.
+..IHJJ
+LLIHMM
+
+Step 395
+Message: Car A moved 1 cell up
+A.EBBF
+ADE.CF
+ADPPCF
+..GGG.
+..IHJJ
+LLIHMM
+
+Step 396
+Message: Car D moved 1 cell up
+ADEBBF
+ADE.CF
+A.PPCF
+..GGG.
+..IHJJ
+LLIHMM
+
+Step 397
+Message: Car A moved 1 cell down
+.DEBBF
+ADE.CF
+A.PPCF
+A.GGG.
+..IHJJ
+LLIHMM
+
+Step 398
+Message: Car A moved 1 cell down
+.DEBBF
+.DE.CF
+A.PPCF
+A.GGG.
+A.IHJJ
+LLIHMM
+
+Step 399
+Message: Car G moved 1 cell to the left
+.DEBBF
+.DE.CF
+A.PPCF
+AGGG..
+A.IHJJ
+LLIHMM
+
+Step 400
+Message: Car A moved 1 cell up
+.DEBBF
+ADE.CF
+A.PPCF
+AGGG..
+..IHJJ
+LLIHMM
+
+Step 401
+Message: Car A moved 1 cell up
+ADEBBF
+ADE.CF
+A.PPCF
+.GGG..
+..IHJJ
+LLIHMM
+
+Step 402
+Message: Car C moved 1 cell down
+ADEBBF
+ADE..F
+A.PPCF
+.GGGC.
+..IHJJ
+LLIHMM
+
+Step 403
+Message: Car A moved 1 cell down
+.DEBBF
+ADE..F
+A.PPCF
+AGGGC.
+..IHJJ
+LLIHMM
+
+Step 404
+Message: Car A moved 1 cell down
+.DEBBF
+.DE..F
+A.PPCF
+AGGGC.
+A.IHJJ
+LLIHMM
+
+Step 405
+Message: Car D moved 1 cell down
+..EBBF
+.DE..F
+ADPPCF
+AGGGC.
+A.IHJJ
+LLIHMM
+
+Step 406
+Message: Car A moved 1 cell up
+..EBBF
+ADE..F
+ADPPCF
+AGGGC.
+..IHJJ
+LLIHMM
+
+Step 407
+Message: Car A moved 1 cell up
+A.EBBF
+ADE..F
+ADPPCF
+.GGGC.
+..IHJJ
+LLIHMM
+
+Step 408
+Message: Car C moved 1 cell up
+A.EBBF
+ADE.CF
+ADPPCF
+.GGG..
+..IHJJ
+LLIHMM
+
+Step 409
+Message: Car A moved 1 cell down
+..EBBF
+ADE.CF
+ADPPCF
+AGGG..
+..IHJJ
+LLIHMM
+
+Step 410
+Message: Car A moved 1 cell down
+..EBBF
+.DE.CF
+ADPPCF
+AGGG..
+A.IHJJ
+LLIHMM
+
+Step 411
+Message: Car F moved 1 cell down
+..EBB.
+.DE.CF
+ADPPCF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 412
+Message: Car A moved 1 cell up
+..EBB.
+ADE.CF
+ADPPCF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 413
+Message: Car A moved 1 cell up
+A.EBB.
+ADE.CF
+ADPPCF
+.GGG.F
+..IHJJ
+LLIHMM
+
+Step 414
+Message: Car B moved 1 cell to the right
+A.E.BB
+ADE.CF
+ADPPCF
+.GGG.F
+..IHJJ
+LLIHMM
+
+Step 415
+Message: Car A moved 1 cell down
+..E.BB
+ADE.CF
+ADPPCF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 416
+Message: Car A moved 1 cell down
+..E.BB
+.DE.CF
+ADPPCF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 417
+Message: Car C moved 1 cell down
+..E.BB
+.DE..F
+ADPPCF
+AGGGCF
+A.IHJJ
+LLIHMM
+
+Step 418
+Message: Car A moved 1 cell up
+..E.BB
+ADE..F
+ADPPCF
+AGGGCF
+..IHJJ
+LLIHMM
+
+Step 419
+Message: Car A moved 1 cell up
+A.E.BB
+ADE..F
+ADPPCF
+.GGGCF
+..IHJJ
+LLIHMM
+
+Step 420
+Message: Car B moved 1 cell to the left
+A.EBB.
+ADE..F
+ADPPCF
+.GGGCF
+..IHJJ
+LLIHMM
+
+Step 421
+Message: Car A moved 1 cell down
+..EBB.
+ADE..F
+ADPPCF
+AGGGCF
+..IHJJ
+LLIHMM
+
+Step 422
+Message: Car A moved 1 cell down
+..EBB.
+.DE..F
+ADPPCF
+AGGGCF
+A.IHJJ
+LLIHMM
+
+Step 423
+Message: Car D moved 1 cell up
+.DEBB.
+.DE..F
+A.PPCF
+AGGGCF
+A.IHJJ
+LLIHMM
+
+Step 424
+Message: Car A moved 1 cell up
+.DEBB.
+ADE..F
+A.PPCF
+AGGGCF
+..IHJJ
+LLIHMM
+
+Step 425
+Message: Car A moved 1 cell up
+ADEBB.
+ADE..F
+A.PPCF
+.GGGCF
+..IHJJ
+LLIHMM
+
+Step 426
+Message: Car B moved 1 cell to the right
+ADE.BB
+ADE..F
+A.PPCF
+.GGGCF
+..IHJJ
+LLIHMM
+
+Step 427
+Message: Car A moved 1 cell down
+.DE.BB
+ADE..F
+A.PPCF
+AGGGCF
+..IHJJ
+LLIHMM
+
+Step 428
+Message: Car A moved 1 cell down
+.DE.BB
+.DE..F
+A.PPCF
+AGGGCF
+A.IHJJ
+LLIHMM
+
+Step 429
+Message: Car C moved 1 cell up
+.DE.BB
+.DE.CF
+A.PPCF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 430
+Message: Car A moved 1 cell up
+.DE.BB
+ADE.CF
+A.PPCF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 431
+Message: Car A moved 1 cell up
+ADE.BB
+ADE.CF
+A.PPCF
+.GGG.F
+..IHJJ
+LLIHMM
+
+Step 432
+Message: Car B moved 1 cell to the left
+ADEBB.
+ADE.CF
+A.PPCF
+.GGG.F
+..IHJJ
+LLIHMM
+
+Step 433
+Message: Car A moved 1 cell down
+.DEBB.
+ADE.CF
+A.PPCF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 434
+Message: Car A moved 1 cell down
+.DEBB.
+.DE.CF
+A.PPCF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 435
+Message: Car P moved 1 cell to the left
+.DEBB.
+.DE.CF
+APP.CF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 436
+Message: Car A moved 1 cell up
+.DEBB.
+ADE.CF
+APP.CF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 437
+Message: Car A moved 1 cell up
+ADEBB.
+ADE.CF
+APP.CF
+.GGG.F
+..IHJJ
+LLIHMM
+
+Step 438
+Message: Car B moved 1 cell to the right
+ADE.BB
+ADE.CF
+APP.CF
+.GGG.F
+..IHJJ
+LLIHMM
+
+Step 439
+Message: Car A moved 1 cell down
+.DE.BB
+ADE.CF
+APP.CF
+AGGG.F
+..IHJJ
+LLIHMM
+
+Step 440
+Message: Car A moved 1 cell down
+.DE.BB
+.DE.CF
+APP.CF
+AGGG.F
+A.IHJJ
+LLIHMM
+
+Step 441
+Message: Car C moved 1 cell down
+.DE.BB
+.DE..F
+APP.CF
+AGGGCF
+A.IHJJ
+LLIHMM
+
+Step 442
+Message: Car A moved 1 cell up
+.DE.BB
+ADE..F
+APP.CF
+AGGGCF
+..IHJJ
+LLIHMM
+
+Step 443
+Message: Car A moved 1 cell up
+ADE.BB
+ADE..F
+APP.CF
+.GGGCF
+..IHJJ
+LLIHMM
+
+Step 444
+Message: Car B moved 1 cell to the left
+ADEBB.
+ADE..F
+APP.CF
+.GGGCF
+..IHJJ
+LLIHMM
+
+Step 445
+Message: Car A moved 1 cell down
+.DEBB.
+ADE..F
+APP.CF
+AGGGCF
+..IHJJ
+LLIHMM
+
+Step 446
+Message: Car A moved 1 cell down
+.DEBB.
+.DE..F
+APP.CF
+AGGGCF
+A.IHJJ
+LLIHMM
+
+Step 447
+Message: Car F moved 1 cell up
+.DEBBF
+.DE..F
+APP.CF
+AGGGC.
+A.IHJJ
+LLIHMM
+
+Step 448
+Message: Car A moved 1 cell up
+.DEBBF
+ADE..F
+APP.CF
+AGGGC.
+..IHJJ
+LLIHMM
+
+Step 449
+Message: Car A moved 1 cell up
+ADEBBF
+ADE..F
+APP.CF
+.GGGC.
+..IHJJ
+LLIHMM
+
+Step 450
+Message: Car C moved 1 cell up
+ADEBBF
+ADE.CF
+APP.CF
+.GGG..
+..IHJJ
+LLIHMM
+
+Step 451
+Message: Car G moved 1 cell to the left
+ADEBBF
+ADE.CF
+APP.CF
+GGG...
+..IHJJ
+LLIHMM
+
+Step 452
+Message: Car C moved 1 cell down
+ADEBBF
+ADE..F
+APP.CF
+GGG.C.
+..IHJJ
+LLIHMM
+
+Step 453
+Message: Car F moved 1 cell down
+ADEBB.
+ADE..F
+APP.CF
+GGG.CF
+..IHJJ
+LLIHMM
+
+Step 454
+Message: Car B moved 1 cell to the right
+ADE.BB
+ADE..F
+APP.CF
+GGG.CF
+..IHJJ
+LLIHMM
+
+Step 455
+Message: Car C moved 1 cell up
+ADE.BB
+ADE.CF
+APP.CF
+GGG..F
+..IHJJ
+LLIHMM
+
+Step 456
+Message: Car B moved 1 cell to the left
+ADEBB.
+ADE.CF
+APP.CF
+GGG..F
+..IHJJ
+LLIHMM
+
+Step 457
+Message: Car P moved 1 cell to the right
+ADEBB.
+ADE.CF
+A.PPCF
+GGG..F
+..IHJJ
+LLIHMM
+
+Step 458
+Message: Car B moved 1 cell to the right
+ADE.BB
+ADE.CF
+A.PPCF
+GGG..F
+..IHJJ
+LLIHMM
+
+Step 459
+Message: Car C moved 1 cell down
+ADE.BB
+ADE..F
+A.PPCF
+GGG.CF
+..IHJJ
+LLIHMM
+
+Step 460
+Message: Car B moved 1 cell to the left
+ADEBB.
+ADE..F
+A.PPCF
+GGG.CF
+..IHJJ
+LLIHMM
+
+Step 461
+Message: Car D moved 1 cell down
+A.EBB.
+ADE..F
+ADPPCF
+GGG.CF
+..IHJJ
+LLIHMM
+
+Step 462
+Message: Car B moved 1 cell to the right
+A.E.BB
+ADE..F
+ADPPCF
+GGG.CF
+..IHJJ
+LLIHMM
+
+Step 463
+Message: Car C moved 1 cell up
+A.E.BB
+ADE.CF
+ADPPCF
+GGG..F
+..IHJJ
+LLIHMM
+
+Step 464
+Message: Car B moved 1 cell to the left
+A.EBB.
+ADE.CF
+ADPPCF
+GGG..F
+..IHJJ
+LLIHMM
+
+Step 465
+Message: Car F moved 1 cell up
+A.EBBF
+ADE.CF
+ADPPCF
+GGG...
+..IHJJ
+LLIHMM
+
+Step 466
+Message: Car C moved 1 cell down
+A.EBBF
+ADE..F
+ADPPCF
+GGG.C.
+..IHJJ
+LLIHMM
+
+Step 467
+Message: Car D moved 1 cell up
+ADEBBF
+ADE..F
+A.PPCF
+GGG.C.
+..IHJJ
+LLIHMM
+
+Step 468
+Message: Car C moved 1 cell up
+ADEBBF
+ADE.CF
+A.PPCF
+GGG...
+..IHJJ
+LLIHMM
+
+Step 469
+Message: Car H moved 1 cell up
+ADEBBF
+ADE.CF
+A.PPCF
+GGGH..
+..IHJJ
+LLI.MM
+
+Step 470
+Message: Car C moved 1 cell down
+ADEBBF
+ADE..F
+A.PPCF
+GGGHC.
+..IHJJ
+LLI.MM
+
+Step 471
+Message: Car D moved 1 cell down
+A.EBBF
+ADE..F
+ADPPCF
+GGGHC.
+..IHJJ
+LLI.MM
+
+Step 472
+Message: Car C moved 1 cell up
+A.EBBF
+ADE.CF
+ADPPCF
+GGGH..
+..IHJJ
+LLI.MM
+
+Step 473
+Message: Car F moved 1 cell down
+A.EBB.
+ADE.CF
+ADPPCF
+GGGH.F
+..IHJJ
+LLI.MM
+
+Step 474
+Message: Car B moved 1 cell to the right
+A.E.BB
+ADE.CF
+ADPPCF
+GGGH.F
+..IHJJ
+LLI.MM
+
+Step 475
+Message: Car C moved 1 cell down
+A.E.BB
+ADE..F
+ADPPCF
+GGGHCF
+..IHJJ
+LLI.MM
+
+Step 476
+Message: Car B moved 1 cell to the left
+A.EBB.
+ADE..F
+ADPPCF
+GGGHCF
+..IHJJ
+LLI.MM
+
+Step 477
+Message: Car D moved 1 cell up
+ADEBB.
+ADE..F
+A.PPCF
+GGGHCF
+..IHJJ
+LLI.MM
+
+Step 478
+Message: Car B moved 1 cell to the right
+ADE.BB
+ADE..F
+A.PPCF
+GGGHCF
+..IHJJ
+LLI.MM
+
+Step 479
+Message: Car C moved 1 cell up
+ADE.BB
+ADE.CF
+A.PPCF
+GGGH.F
+..IHJJ
+LLI.MM
+
+Step 480
+Message: Car B moved 1 cell to the left
+ADEBB.
+ADE.CF
+A.PPCF
+GGGH.F
+..IHJJ
+LLI.MM
+
+Step 481
+Message: Car P moved 1 cell to the left
+ADEBB.
+ADE.CF
+APP.CF
+GGGH.F
+..IHJJ
+LLI.MM
+
+Step 482
+Message: Car B moved 1 cell to the right
+ADE.BB
+ADE.CF
+APP.CF
+GGGH.F
+..IHJJ
+LLI.MM
+
+Step 483
+Message: Car C moved 1 cell down
+ADE.BB
+ADE..F
+APP.CF
+GGGHCF
+..IHJJ
+LLI.MM
+
+Step 484
+Message: Car B moved 1 cell to the left
+ADEBB.
+ADE..F
+APP.CF
+GGGHCF
+..IHJJ
+LLI.MM
+
+Step 485
+Message: Car F moved 1 cell up
+ADEBBF
+ADE..F
+APP.CF
+GGGHC.
+..IHJJ
+LLI.MM
+
+Step 486
+Message: Car C moved 1 cell up
+ADEBBF
+ADE.CF
+APP.CF
+GGGH..
+..IHJJ
+LLI.MM
+
+Step 487
+Message: Car H moved 1 cell up
+ADEBBF
+ADE.CF
+APPHCF
+GGGH..
+..I.JJ
+LLI.MM
+
+Step 488
+Message: Car C moved 1 cell down
+ADEBBF
+ADE..F
+APPHCF
+GGGHC.
+..I.JJ
+LLI.MM
+
+Step 489
+Message: Car F moved 1 cell down
+ADEBB.
+ADE..F
+APPHCF
+GGGHCF
+..I.JJ
+LLI.MM
+
+Step 490
+Message: Car B moved 1 cell to the right
+ADE.BB
+ADE..F
+APPHCF
+GGGHCF
+..I.JJ
+LLI.MM
+
+Step 491
+Message: Car C moved 1 cell up
+ADE.BB
+ADE.CF
+APPHCF
+GGGH.F
+..I.JJ
+LLI.MM
+
+Step 492
+Message: Car B moved 1 cell to the left
+ADEBB.
+ADE.CF
+APPHCF
+GGGH.F
+..I.JJ
+LLI.MM
+
+Step 493
+Message: Car H moved 1 cell up
+ADEBB.
+ADEHCF
+APPHCF
+GGG..F
+..I.JJ
+LLI.MM
+
+Step 494
+Message: Car B moved 1 cell to the right
+ADE.BB
+ADEHCF
+APPHCF
+GGG..F
+..I.JJ
+LLI.MM
+
+Step 495
+Message: Car C moved 1 cell down
+ADE.BB
+ADEH.F
+APPHCF
+GGG.CF
+..I.JJ
+LLI.MM
+
+Step 496
+Message: Car B moved 1 cell to the left
+ADEBB.
+ADEH.F
+APPHCF
+GGG.CF
+..I.JJ
+LLI.MM
+
+Step 497
+Message: Car F moved 1 cell up
+ADEBBF
+ADEH.F
+APPHCF
+GGG.C.
+..I.JJ
+LLI.MM
+
+Step 498
+Message: Car C moved 1 cell up
+ADEBBF
+ADEHCF
+APPHCF
+GGG...
+..I.JJ
+LLI.MM
+
+Step 499
+Message: Car G moved 1 cell to the right
+ADEBBF
+ADEHCF
+APPHCF
+.GGG..
+..I.JJ
+LLI.MM
+
+Step 500
+Message: Car A moved 1 cell down
+.DEBBF
+ADEHCF
+APPHCF
+AGGG..
+..I.JJ
+LLI.MM
+
+Step 501
+Message: Car A moved 1 cell down
+.DEBBF
+.DEHCF
+APPHCF
+AGGG..
+A.I.JJ
+LLI.MM
+
+Step 502
+Message: Car C moved 1 cell down
+.DEBBF
+.DEH.F
+APPHCF
+AGGGC.
+A.I.JJ
+LLI.MM
+
+Step 503
+Message: Car A moved 1 cell up
+.DEBBF
+ADEH.F
+APPHCF
+AGGGC.
+..I.JJ
+LLI.MM
+
+Step 504
+Message: Car A moved 1 cell up
+ADEBBF
+ADEH.F
+APPHCF
+.GGGC.
+..I.JJ
+LLI.MM
+
+Step 505
+Message: Car F moved 1 cell down
+ADEBB.
+ADEH.F
+APPHCF
+.GGGCF
+..I.JJ
+LLI.MM
+
+Step 506
+Message: Car A moved 1 cell down
+.DEBB.
+ADEH.F
+APPHCF
+AGGGCF
+..I.JJ
+LLI.MM
+
+Step 507
+Message: Car A moved 1 cell down
+.DEBB.
+.DEH.F
+APPHCF
+AGGGCF
+A.I.JJ
+LLI.MM
+
+Step 508
+Message: Car B moved 1 cell to the right
+.DE.BB
+.DEH.F
+APPHCF
+AGGGCF
+A.I.JJ
+LLI.MM
+
+Step 509
+Message: Car A moved 1 cell up
+.DE.BB
+ADEH.F
+APPHCF
+AGGGCF
+..I.JJ
+LLI.MM
+
+Step 510
+Message: Car A moved 1 cell up
+ADE.BB
+ADEH.F
+APPHCF
+.GGGCF
+..I.JJ
+LLI.MM
+
+Step 511
+Message: Car C moved 1 cell up
+ADE.BB
+ADEHCF
+APPHCF
+.GGG.F
+..I.JJ
+LLI.MM
+
+Step 512
+Message: Car A moved 1 cell down
+.DE.BB
+ADEHCF
+APPHCF
+AGGG.F
+..I.JJ
+LLI.MM
+
+Step 513
+Message: Car A moved 1 cell down
+.DE.BB
+.DEHCF
+APPHCF
+AGGG.F
+A.I.JJ
+LLI.MM
+
+Step 514
+Message: Car B moved 1 cell to the left
+.DEBB.
+.DEHCF
+APPHCF
+AGGG.F
+A.I.JJ
+LLI.MM
+
+Step 515
+Message: Car A moved 1 cell up
+.DEBB.
+ADEHCF
+APPHCF
+AGGG.F
+..I.JJ
+LLI.MM
+
+Step 516
+Message: Car A moved 1 cell up
+ADEBB.
+ADEHCF
+APPHCF
+.GGG.F
+..I.JJ
+LLI.MM
+
+Step 517
+Message: Car G moved 1 cell to the right
+ADEBB.
+ADEHCF
+APPHCF
+..GGGF
+..I.JJ
+LLI.MM
+
+Step 518
+Message: Car A moved 1 cell down
+.DEBB.
+ADEHCF
+APPHCF
+A.GGGF
+..I.JJ
+LLI.MM
+
+Step 519
+Message: Car A moved 1 cell down
+.DEBB.
+.DEHCF
+APPHCF
+A.GGGF
+A.I.JJ
+LLI.MM
+
+Step 520
+Message: Car B moved 1 cell to the right
+.DE.BB
+.DEHCF
+APPHCF
+A.GGGF
+A.I.JJ
+LLI.MM
+
+Step 521
+Message: Car A moved 1 cell up
+.DE.BB
+ADEHCF
+APPHCF
+A.GGGF
+..I.JJ
+LLI.MM
+
+Step 522
+Message: Car A moved 1 cell up
+ADE.BB
+ADEHCF
+APPHCF
+..GGGF
+..I.JJ
+LLI.MM
+
+Step 523
+Message: Car H moved 1 cell up
+ADEHBB
+ADEHCF
+APP.CF
+..GGGF
+..I.JJ
+LLI.MM
+
+Step 524
+Message: Car A moved 1 cell down
+.DEHBB
+ADEHCF
+APP.CF
+A.GGGF
+..I.JJ
+LLI.MM
+
+Step 525
+Message: Car A moved 1 cell down
+.DEHBB
+.DEHCF
+APP.CF
+A.GGGF
+A.I.JJ
+LLI.MM
+
+Step 526
+Message: Car P moved 1 cell to the right
+.DEHBB
+.DEHCF
+A.PPCF
+A.GGGF
+A.I.JJ
+LLI.MM
+
+Step 527
+Message: Car A moved 1 cell up
+.DEHBB
+ADEHCF
+A.PPCF
+A.GGGF
+..I.JJ
+LLI.MM
+
+Step 528
+Message: Car A moved 1 cell up
+ADEHBB
+ADEHCF
+A.PPCF
+..GGGF
+..I.JJ
+LLI.MM
+
+Step 529
+Message: Car D moved 1 cell down
+A.EHBB
+ADEHCF
+ADPPCF
+..GGGF
+..I.JJ
+LLI.MM
+
+Step 530
+Message: Car A moved 1 cell down
+..EHBB
+ADEHCF
+ADPPCF
+A.GGGF
+..I.JJ
+LLI.MM
+
+Step 531
+Message: Car A moved 1 cell down
+..EHBB
+.DEHCF
+ADPPCF
+A.GGGF
+A.I.JJ
+LLI.MM
+
+Step 532
+Message: Car D moved 1 cell down
+..EHBB
+..EHCF
+ADPPCF
+ADGGGF
+A.I.JJ
+LLI.MM
+
+Step 533
+Message: Car A moved 1 cell up
+..EHBB
+A.EHCF
+ADPPCF
+ADGGGF
+..I.JJ
+LLI.MM
+
+Step 534
+Message: Car A moved 1 cell up
+A.EHBB
+A.EHCF
+ADPPCF
+.DGGGF
+..I.JJ
+LLI.MM
+
+Step 535
+Message: Car D moved 1 cell down
+A.EHBB
+A.EHCF
+A.PPCF
+.DGGGF
+.DI.JJ
+LLI.MM
+
+Step 536
+Message: Car A moved 1 cell down
+..EHBB
+A.EHCF
+A.PPCF
+ADGGGF
+.DI.JJ
+LLI.MM
+
+Step 537
+Message: Car A moved 1 cell down
+..EHBB
+..EHCF
+A.PPCF
+ADGGGF
+ADI.JJ
+LLI.MM
+
+Step 538
+Message: Car P moved 1 cell to the left
+..EHBB
+..EHCF
+APP.CF
+ADGGGF
+ADI.JJ
+LLI.MM
+
+Step 539
+Message: Car A moved 1 cell up
+..EHBB
+A.EHCF
+APP.CF
+ADGGGF
+.DI.JJ
+LLI.MM
+
+Step 540
+Message: Car A moved 1 cell up
+A.EHBB
+A.EHCF
+APP.CF
+.DGGGF
+.DI.JJ
+LLI.MM
+
+Step 541
+Message: Car H moved 1 cell down
+A.E.BB
+A.EHCF
+APPHCF
+.DGGGF
+.DI.JJ
+LLI.MM
+
+Step 542
+Message: Car A moved 1 cell down
+..E.BB
+A.EHCF
+APPHCF
+ADGGGF
+.DI.JJ
+LLI.MM
+
+Step 543
+Message: Car A moved 1 cell down
+..E.BB
+..EHCF
+APPHCF
+ADGGGF
+ADI.JJ
+LLI.MM
+
+Step 544
+Message: Car B moved 1 cell to the left
+..EBB.
+..EHCF
+APPHCF
+ADGGGF
+ADI.JJ
+LLI.MM
+
+Step 545
+Message: Car A moved 1 cell up
+..EBB.
+A.EHCF
+APPHCF
+ADGGGF
+.DI.JJ
+LLI.MM
+
+Step 546
+Message: Car A moved 1 cell up
+A.EBB.
+A.EHCF
+APPHCF
+.DGGGF
+.DI.JJ
+LLI.MM
+
+Step 547
+Message: Car F moved 1 cell up
+A.EBBF
+A.EHCF
+APPHCF
+.DGGG.
+.DI.JJ
+LLI.MM
+
+Step 548
+Message: Car A moved 1 cell down
+..EBBF
+A.EHCF
+APPHCF
+ADGGG.
+.DI.JJ
+LLI.MM
+
+Step 549
+Message: Car A moved 1 cell down
+..EBBF
+..EHCF
+APPHCF
+ADGGG.
+ADI.JJ
+LLI.MM
+
+Step 550
+Message: Car G moved 1 cell to the right
+..EBBF
+..EHCF
+APPHCF
+AD.GGG
+ADI.JJ
+LLI.MM
+
+Step 551
+Message: Car A moved 1 cell up
+..EBBF
+A.EHCF
+APPHCF
+AD.GGG
+.DI.JJ
+LLI.MM
+
+Step 552
+Message: Car A moved 1 cell up
+A.EBBF
+A.EHCF
+APPHCF
+.D.GGG
+.DI.JJ
+LLI.MM
+
+Step 553
+Message: Car I moved 1 cell up
+A.EBBF
+A.EHCF
+APPHCF
+.DIGGG
+.DI.JJ
+LL..MM
+
+Step 554
+Message: Car A moved 1 cell down
+..EBBF
+A.EHCF
+APPHCF
+ADIGGG
+.DI.JJ
+LL..MM
+
+Step 555
+Message: Car A moved 1 cell down
+..EBBF
+..EHCF
+APPHCF
+ADIGGG
+ADI.JJ
+LL..MM
+
+Step 556
+Message: Car J moved 1 cell to the left
+..EBBF
+..EHCF
+APPHCF
+ADIGGG
+ADIJJ.
+LL..MM
+
+Step 557
+Message: Car A moved 1 cell up
+..EBBF
+A.EHCF
+APPHCF
+ADIGGG
+.DIJJ.
+LL..MM
+
+Step 558
+Message: Car A moved 1 cell up
+A.EBBF
+A.EHCF
+APPHCF
+.DIGGG
+.DIJJ.
+LL..MM
+
+Step 559
+Message: Car L moved 1 cell to the right
+A.EBBF
+A.EHCF
+APPHCF
+.DIGGG
+.DIJJ.
+.LL.MM
+
+Step 560
+Message: Car A moved 1 cell down
+..EBBF
+A.EHCF
+APPHCF
+ADIGGG
+.DIJJ.
+.LL.MM
+
+Step 561
+Message: Car A moved 1 cell down
+..EBBF
+..EHCF
+APPHCF
+ADIGGG
+ADIJJ.
+.LL.MM
+
+Step 562
+Message: Car A moved 1 cell down
+..EBBF
+..EHCF
+.PPHCF
+ADIGGG
+ADIJJ.
+ALL.MM
+
+Step 563
+Message: Car P moved 1 cell to the left
+..EBBF
+..EHCF
+PP.HCF
+ADIGGG
+ADIJJ.
+ALL.MM
+
+Step 564
+Message: Car E moved 1 cell down
+...BBF
+..EHCF
+PPEHCF
+ADIGGG
+ADIJJ.
+ALL.MM
+
+Step 565
+Message: Car B moved 1 cell to the left
+..BB.F
+..EHCF
+PPEHCF
+ADIGGG
+ADIJJ.
+ALL.MM
+
+Step 566
+Message: Car B moved 1 cell to the left
+.BB..F
+..EHCF
+PPEHCF
+ADIGGG
+ADIJJ.
+ALL.MM
+
+Step 567
+Message: Car B moved 1 cell to the left
+BB...F
+..EHCF
+PPEHCF
+ADIGGG
+ADIJJ.
+ALL.MM
+
+Step 568
+Message: Car E moved 1 cell up
+BBE..F
+..EHCF
+PP.HCF
+ADIGGG
+ADIJJ.
+ALL.MM
+
+Step 569
+Message: Car P moved 1 cell to the right
+BBE..F
+..EHCF
+.PPHCF
+ADIGGG
+ADIJJ.
+ALL.MM
+
+Step 570
+Message: Car A moved 1 cell up
+BBE..F
+..EHCF
+APPHCF
+ADIGGG
+ADIJJ.
+.LL.MM
+
+Step 571
+Message: Car C moved 1 cell up
+BBE.CF
+..EHCF
+APPH.F
+ADIGGG
+ADIJJ.
+.LL.MM
+
+Step 572
+Message: Car H moved 1 cell up
+BBEHCF
+..EHCF
+APP..F
+ADIGGG
+ADIJJ.
+.LL.MM
+
+Step 573
+Message: Car P moved 1 cell to the right
+BBEHCF
+..EHCF
+A.PP.F
+ADIGGG
+ADIJJ.
+.LL.MM
+
+Step 574
+Message: Car L moved 1 cell to the left
+BBEHCF
+..EHCF
+A.PP.F
+ADIGGG
+ADIJJ.
+LL..MM
+
+Step 575
+Message: Car I moved 1 cell down
+BBEHCF
+..EHCF
+A.PP.F
+AD.GGG
+ADIJJ.
+LLI.MM
+
+Step 576
+Message: Car G moved 1 cell to the left
+BBEHCF
+..EHCF
+A.PP.F
+ADGGG.
+ADIJJ.
+LLI.MM
+
+Step 577
+Message: Car M moved 1 cell to the left
+BBEHCF
+..EHCF
+A.PP.F
+ADGGG.
+ADIJJ.
+LLIMM.
+
+Step 578
+Message: Car F moved 3 cells down
+BBEHC.
+..EHC.
+A.PP..
+ADGGGF
+ADIJJF
+LLIMMF
+
+Step 579
+Message: Car P moved 2 cells to the right. Target car reached goal
+BBEHC.
+..EHC.
+A...PP
+ADGGGF
+ADIJJF
+LLIMMF
